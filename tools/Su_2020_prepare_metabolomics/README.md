@@ -1,4 +1,4 @@
-# Prepare metabolomics data from Su et al 2020 for FAIR Data Cube
+# Prepare metabolomics data from Su et al. 2020 for FAIR Data Cube
 
 ## Setup of project environment
 
