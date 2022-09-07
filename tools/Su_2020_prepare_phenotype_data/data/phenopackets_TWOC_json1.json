@@ -1,0 +1,110 @@
+{
+  "id": "Healthy_1053BW",
+  "subject": {
+    "id": "Healthy_1053BW",
+    "timeAtLastEncounter": {
+      "age": {
+        "iso8601duration": "P52Y"
+      }
+    },
+    "sex": "FEMALE",
+    "taxonomy": {
+      "id": "NCBITaxon:9606",
+      "label": "Homo sapiens"
+    }
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "Home",
+        "label": "NCIT_C166244"
+      }
+    },
+    {
+      "type": {
+        "id": "NO",
+        "label": "NCIT_C53511"
+      }
+    },
+    {
+      "type": {
+        "id": "https://doi.org/10.1016/j.cell.2020.10.037",
+        "label": "data_1188"
+      }
+    },
+    {
+      "type": {
+        "id": "Unknown",
+        "label": "GECKO_0000061"
+      }
+    },
+    {
+      "type": {
+        "label": "ExO_0000105"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C154329"
+      }
+    },
+    {
+      "type": {
+        "id": "0.0",
+        "label": "NCIT_C178899"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C176422"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C121113"
+      }
+    },
+    {
+      "type": {
+        "id": "NO",
+        "label": "NCIT_C70909"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C28397"
+      }
+    },
+    {
+      "type": {
+        "label": "HP_0006510"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C2985"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C64548"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C74737"
+      }
+    },
+    {
+      "type": {
+        "label": "NCIT_C74834"
+      }
+    }
+  ],
+  "biosamples": [
+    {
+      "id": "Healthy_1053BW",
+      "individualId": "Healthy_1053BW"
+    }
+  ]
+}
