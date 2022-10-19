@@ -10,7 +10,7 @@ prefixes:
 mappings:
   sample:
     sources:
-      - ['individuals-vs-samples.csv~csv']
+      - ['individualIDs-vs-sampleIDs.csv~csv']
     s: ex:$(SampleID)
     po:
       - [a, obo:NCIT_C43412] # a sample
