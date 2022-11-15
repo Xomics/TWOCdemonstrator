@@ -3,6 +3,7 @@
 # import statements
 import pandas as pd
 import numpy as np
+import datetime
 
 
 # functions
@@ -33,6 +34,9 @@ def csv_convert(df):
     individual_ids = row_names
 
     # get the phenotype data
+
+    # generate uniqid as the exact time stamp
+    uniqid = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
 
     
 
