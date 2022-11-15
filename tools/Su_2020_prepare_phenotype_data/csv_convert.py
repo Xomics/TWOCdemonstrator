@@ -21,10 +21,21 @@ def csv_convert(df):
     '''
 
     # get the column names, skip first row as they are ontoloy terms
+    
     df.columns = df.iloc[0]
+    ontology_terms = df.columns.values[1:]
+
     df = df.iloc[1:].reset_index(drop=True)
     col_names = df.columns
+
+    # get the row names
+    row_names = df.iloc[:,0].values
+    individual_ids = row_names
+
+    # get the phenotype data
+
     
+
     
     # get number of columns
     num_cols = len(col_names)
