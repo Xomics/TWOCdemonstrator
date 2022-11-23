@@ -24,7 +24,8 @@ if __name__ == '__main__':
         select (count(?o) as ?Number_of_Covid19_Diagnosed)
             where {
                 ?s mondo:C173069 ?o .
-                'FILTER (?o = true)
-            }'
+                FILTER (?o = true)
+            }
+        '
     e = 'https://fdp.cmbi.umcn.nl/blazegraph/#splash'
     main(q, e)
