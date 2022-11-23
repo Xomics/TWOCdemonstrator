@@ -2,14 +2,14 @@ from rdflib import Graph
 
 # functions
 
-def sparql_query(q, endpoint):
-    fdp_g = Graph().parse(endpoint)
+def sparql_query(q):
+    fdp_g = Graph()
     for row in fdp_g.query(q):
         print(row)
     return None
 
 if __name__ == '__main__':
-    q = '
+    q = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix ex: <http://example.com/>
         prefix obo: <http://purl.obolibrary.org/obo/>
@@ -22,10 +22,14 @@ if __name__ == '__main__':
         prefix exo: <http://purl.obolibrary.org/obo/exo.owl/>
 
         select (count(?o) as ?Number_of_Covid19_Diagnosed)
-            where {
-                ?s mondo:C173069 ?o .
+            where { SERVICE <https://fdp.cmbi.umcn.nl/blazegraph/sparql>{
+                ?s mondo:C173069 ?o .}
                 FILTER (?o = true)
-            }
-        '
-    e = 'https://fdp.cmbi.umcn.nl/blazegraph/#splash'
-    main(q, e)
+            }"""
+
+    q2 = """
+        select *
+            where { SERVICE <https://fdp.cmbi.umcn.nl/blazegraph/sparql>{
+                ?s ?p ?o .}
+            } LIMIT 100 """  
+    sparql_query(q2)
