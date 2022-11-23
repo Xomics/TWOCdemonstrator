@@ -1,15 +1,16 @@
-from rdflib import Graph
+from rdflib import Graph, URIRef
 
 # functions
 
-def sparql_query(q):
+def sparql_query_to_file(q, filename):
     fdp_g = Graph()
-    for row in fdp_g.query(q):
-        print(row)
+    with open(filename, 'w') as f:
+        for s, p, o in fdp_g.query(q):
+            f.write(s.n3() + ' ' + p.n3() + ' ' + o.n3() + ' .\n')
     return None
 
 if __name__ == '__main__':
-    q = """
+    q1 = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         prefix ex: <http://example.com/>
         prefix obo: <http://purl.obolibrary.org/obo/>
@@ -31,5 +32,6 @@ if __name__ == '__main__':
         select *
             where { SERVICE <https://fdp.cmbi.umcn.nl/blazegraph/sparql>{
                 ?s ?p ?o .}
-            } LIMIT 100 """  
-    sparql_query(q2)
+            } LIMIT 1000 """  
+    fname = 'test_result.txt'
+    sparql_query_to_file(q2, fname)
