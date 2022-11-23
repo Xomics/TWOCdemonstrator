@@ -1,3 +1,5 @@
+#import statements
+
 from rdflib import Graph, URIRef
 
 # functions
@@ -19,6 +21,8 @@ def sparql_query_to_file(q, filename):
             #s, p, o are in URIRef format needs to be converted to string 
             # using n3() method
     return None
+
+# main
 
 if __name__ == '__main__':
     q1 = """
