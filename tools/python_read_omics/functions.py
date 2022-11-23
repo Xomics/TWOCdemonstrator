@@ -2,10 +2,15 @@
 
 import pandas as pd
 
-# function to read omics file into pandas data frame
-# input:
 def read_omics_data(file_path):
-    df = pd.read_csv(file_path)
+    """Read omics file into pandas data frame.
+
+    :param file_path: Path to .csv file containing omics data (features in rows,
+      samples in columns)
+    :return: Omics data
+    :rtype: pandas.DataFrame
+    """
+    df = pd.read_csv(file_path, index_col = "feature.name")
     return df
 
 # function to read omics feature metadata file into pandas data frame
@@ -17,5 +22,3 @@ def read_omics_data(file_path):
 # calculate mean
 
 
-df = read_omics_data("../../data/Su_2020_FAIR/metabolomics/metabolomics_Su_2020_feature-data.csv")
-print(df.shape)
