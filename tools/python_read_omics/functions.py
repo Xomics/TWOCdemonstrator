@@ -16,6 +16,22 @@ def read_omics_data(file_path):
 # function to read omics feature metadata file into pandas data frame
 
 # function to create PID from available omics feature metadata
+def create_feature_PID(df):
+    """Concatenate database ID and database name to generate feature PID.
+    
+    :param df: Pandas dataframe containing feature metadata
+    :rtype: pandas.DataFrame
+    """
+    for index, row in df.iterrows():
+        if df.at[index, 'database'] == "https://www.ebi.ac.uk/chebi/":
+            pid = str("http://purl.bioontology.org/ontology/CHEBI/CHEBI:" + str(df.at[index, 'database.ID']))
+            df.at[index, 'Concatenated_ID'] = pid
+        else :
+            pid =  str(df.at[index, 'database']) + str(df.at[index, 'database.ID'])
+            df.at[index, 'Concatenated_ID'] = pid    
+        
+    return df
+
 
 # subset based on sample IDs / feature IDs
 
