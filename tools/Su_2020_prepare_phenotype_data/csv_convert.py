@@ -64,7 +64,7 @@ def csv_save(np_array, csv_file):
 # main
 if __name__ == "__main__":
 
-    file = 'C:\Users\z370170\Projects\TWOC\TWOCdemonstrator\tool\test_data\TWOC-phenotypes.csv'
+    file = 'C:\\Users\\z370170\\Projects\\TWOC\\TWOCdemonstrator\\tool\\test_data\\TWOC-phenotypes.csv'
     # read in csv file
     df = csv_parse(file)
     
