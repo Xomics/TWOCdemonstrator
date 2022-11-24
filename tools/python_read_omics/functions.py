@@ -35,7 +35,7 @@ def create_feature_PID(df):
 
 # subset based on  feature and/or sample IDs
 def subset_omics_data(df, **kwargs):
-    """Subset omics dataframe on a list of features 
+    """Subset omics dataframe on a list of features and/or sample IDs 
     
     :param df: Pandas dataframe containing feature metadata
     :param feature_list: List object with feature names (strings)
