@@ -25,10 +25,10 @@ def create_feature_PID(df):
     for index, row in df.iterrows():
         if df.at[index, 'database'] == "https://www.ebi.ac.uk/chebi/":
             pid = str("http://purl.bioontology.org/ontology/CHEBI/CHEBI:" + str(df.at[index, 'database.ID']))
-            df.at[index, 'Concatenated_ID'] = pid
+            df.at[index, 'PID'] = pid
         else :
             pid =  str(df.at[index, 'database']) + str(df.at[index, 'database.ID'])
-            df.at[index, 'Concatenated_ID'] = pid    
+            df.at[index, 'PID'] = pid    
         
     return df
 
