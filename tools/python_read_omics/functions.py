@@ -33,7 +33,21 @@ def create_feature_PID(df):
     return df
 
 
-# subset based on sample IDs / feature IDs
+# subset based on  feature and/or sample IDs
+def subset_omics_data(df, **kwargs):
+    """Subset omics dataframe on a list of features 
+    
+    :param df: Pandas dataframe containing feature metadata
+    :param feature_list: List object with feature names (strings)
+    :param sample_list: List object with sample names (strings)
+    :rtype: pandas.DataFrame
+    """
+    if 'feature_list' in kwargs:
+        df = df[df.index.isin(kwargs['feature_list'])]
+    if 'sample_list' in kwargs:
+        df = df.loc[:,kwargs['sample_list']]
+    
+    return df  
 
 # calculate mean
 
