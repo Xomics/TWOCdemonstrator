@@ -37,7 +37,7 @@ def create_feature_PID(df):
 def subset_omics_data(df, **kwargs):
     """Subset omics dataframe on a list of features and/or sample IDs 
     
-    :param df: Pandas dataframe containing feature metadata
+    :param df: Pandas dataframe containing omics data
     :param feature_list: List object with feature names (strings)
     :param sample_list: List object with sample names (strings)
     :rtype: pandas.DataFrame
@@ -50,5 +50,15 @@ def subset_omics_data(df, **kwargs):
     return df  
 
 # calculate mean
+def calculate_means(df):
+    """Subset omics dataframe on a list of features and/or sample IDs 
+    
+    :param df: Pandas dataframe containing omics data
+    :rtype: Dictionary
+    """
+    means = df.transpose().mean()
+    dictionary = means.to_dict()
+    
+    return dictionary  
 
 
