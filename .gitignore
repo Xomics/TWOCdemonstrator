@@ -349,3 +349,6 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 .Rproj.user
+
+# Jupyter notebook
+tools/python_read_omics/.ipynb_checkpoints/
