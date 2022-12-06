@@ -1,5 +1,3 @@
-
-
 # import statements
 import pandas as pd
 import numpy as np
@@ -21,6 +19,12 @@ def csv_convert(df):
     return: dictionaries of numpy arrays
     '''
 
+    # check if units exist, if so save all units into a dictionary
+    if df.iloc[0,0] == 'Units':
+        units_dict = {}
+        for i in range(len(df.columns)):
+            if df.iloc[0,i] != None:
+                units_dict[df.iloc[1,i]] = df.iloc[0,i]
     # get the column names, skip first row as they are ontoloy terms
     
     df.columns = df.iloc[0]
