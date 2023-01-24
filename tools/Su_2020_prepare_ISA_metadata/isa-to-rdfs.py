@@ -26,9 +26,9 @@ def load_isa(isa_file):
 def create_rdf_graph(investigation):
     '''Creating an RDF graph from an ISA Investigation
     '''
-    set_context(new_context='wdt', combine=False, local=False)
-    set_context(new_context='obo', combine=False, local=False)
-    set_context(new_context='sdo', combine=False, local=False)
+    set_context(vocab='wdt', all_in_one=False, local=False)
+    set_context(vocab='obo', all_in_one=False, local=False)
+    set_context(vocab='sdo', all_in_one=False, local=False)
 
     ld = investigation.to_dict(ld=True)
     # Creating the namespace
