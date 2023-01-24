@@ -12,6 +12,22 @@ def csv_parse(csv_file):
     df = pd.read_csv(csv_file)
     return df
 
+def header_reconstruct(header, ontology_terms, units, value_type):
+    '''
+    reconstruct the header of the csv file
+    params: header, ontology_terms, units, value_type
+    return: reconstructed header
+    '''
+    new_header = []
+    for i in range(len(header)):
+        if units[i] == 'None':
+            new_header.append(header[i],ontology_terms[i])
+        else:
+            new_header.append(header[i], ontology_terms[i])
+            new_header.append(units[i])
+            new_header.append()
+    return new_header
+
 def csv_convert(df):
     '''
     convert csv file to numpy array
@@ -19,16 +35,15 @@ def csv_convert(df):
     return: dictionaries of numpy arrays
     '''
 
-    # check if units exist, if so save all units into a dictionary
-    if df.iloc[0,0] == 'Units':
-        units_dict = {}
-        for i in range(len(df.columns)):
-            if df.iloc[0,i] != None:
-                units_dict[df.iloc[1,i]] = df.iloc[0,i]
-    # get the column names, skip first row as they are ontoloy terms
+    # check if units exist, if so save all units into a list
     
-    df.columns = df.iloc[0]
-    ontology_terms = df.columns.values[1:]
+    units = df.iloc[0].tolist()
+
+    # get ontology terms as list in column headers
+    ontology_terms = df.iloc[1].tolist()
+
+    # save header as a list
+    header = df.iloc[2].tolist()
 
     df = df.iloc[1:].reset_index(drop=True)
     col_names = df.columns
@@ -37,28 +52,18 @@ def csv_convert(df):
     row_names = df.iloc[:,0].values
     individual_ids = row_names
 
-    # get the phenotype data
-
     # generate uniqid as the exact time stamp
-    uniqid = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
+    uniqids = []
+    for id in individual_ids:
+        uniqid = id + datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
+        uniqids.append(uniqid)
+
+    # recontruct the dataframe
+    recon_df = pd.DataFrame()
+    new header 
+
 
     
-
-    
-    # get number of columns
-    num_cols = len(col_names)
-    
-    # get number of rows
-    num_rows = len(df.index)
-    
-    # create numpy array
-    np_array = np.zeros((num_rows, num_cols))
-    
-    # fill numpy array
-    for i in range(num_cols):
-        np_array[:, i] = df[col_names[i]]
-    return np_array
-
 def csv_save(np_array, csv_file):
     # save numpy array to csv file
     

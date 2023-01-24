@@ -7,20 +7,20 @@ import json
 
 from rdflib import Graph, Namespace
 
-from isatools.isajson import load
+from isatools import isatab
 from isatools.model import set_context
 
 
 # functions
-def load_isa_json(isa_json_file):
+def load_isa(isa_file):
     '''Reading and loading an ISA Investigation
     in memory from an ISA-JSON instance
 
         param isa_json_file: ISA-JSON file
         return: ISA Investigation object
     '''
-    with open(isa_json_file, 'r') as f:
-        investigation = load(f)
+    with open(isa_file, 'r') as f:
+        investigation = isatab.load(f)
     return investigation
 
 def create_rdf_graph(investigation):
@@ -48,11 +48,12 @@ def create_rdf_graph(investigation):
 
 
 def main(file):
-    investigation = load_isa_json(file)
+    investigation = load_isa(file)
     graph = create_rdf_graph(investigation)
     return graph
 
 # main
 if __name__ == '__main__':
     isajson_file = '../../data/Su_2020_FAIR/isa.json'
-    g = main(isajson_file)
+    isa_tab_file = '../../data/Su_2020_FAIR/i_investigation.txt'
+    g = main(isa_tab_file)
