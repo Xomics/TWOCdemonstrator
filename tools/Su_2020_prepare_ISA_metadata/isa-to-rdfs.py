@@ -5,7 +5,7 @@
 from os import path
 import json
 
-from rdflib import Graph, Namespace
+from rdflib import Graph, Namespace, URIRef
 
 from isatools import isatab
 from isatools.model import set_context
@@ -27,7 +27,7 @@ def create_rdf_graph(investigation):
     '''Creating an RDF graph from an ISA Investigation
     '''
     set_context(vocab='wdt', all_in_one=False, local=False)
-    set_context(vocab='obo', all_in_one=False, local=False)
+#    set_context(vocab='obo', all_in_one=False, local=False)
 #    set_context(vocab='sdo', all_in_one=False, local=False)
 
     ld = investigation.to_dict(ld=True)
@@ -35,7 +35,8 @@ def create_rdf_graph(investigation):
     WDT = Namespace("http://www.wikidata.org/wiki/")
     WDTP = Namespace('https://www.wikidata.org/wiki/Property:')
     ISA = Namespace('https://isa.org/')
-    OBO = Namespace('http://purl.obolibrary.org/obo/')
+    TWOC = Namespace('file:///D:/CMBI_work/Projects/TWOCdemonstrator/tools/Su_2020_prepare_ISA_metadata')
+    #OBO = Namespace('http://purl.obolibrary.org/obo/')
 
 
     ld_string = json.dumps(ld) # Get a string representation of the ld variable
@@ -46,14 +47,36 @@ def create_rdf_graph(investigation):
     graph.bind('wdt', WDT)
     graph.bind('isa', ISA)
     graph.bind('wdtp', WDTP)
-    graph.bind('obo', OBO)
+    graph.bind('twoc', TWOC)
+    #graph.bind('obo', OBO)
     return graph
 
+def re_base_uri():
+    g = Graph()
+    g.load(r'../../data/Su_2020_FAIR/isa.ttl', format='turtle')
+
+    # Define the old and new base URIs
+    old_base_uri = 'file:///D:/CMBI_work/Projects/TWOCdemonstrator/tools/Su_2020_prepare_ISA_metadata'
+    new_base_uri = 'https://github.com/Xomics/TWOCdemonstrator/blob/main/data/Su_2020_FAIR/isa.ttl'
+
+    # Iterate through the triples and update the base URI
+    for s, p, o in g:
+        if str(s).startswith(old_base_uri):
+            g.remove((s, p, o))
+            g.add((URIRef(str(s).replace(old_base_uri, new_base_uri)), p, o))
+        if str(o).startswith(old_base_uri):
+            g.remove((s, p, o))
+            g.add((s, p, URIRef(str(o).replace(old_base_uri, new_base_uri))))
+
+    # Save the updated RDF file
+    g.serialize(destination='../../data/Su_2020_FAIR/isa_new.ttl', format='turtle')
+    return
 
 def main(file):
     investigation = load_isa(file)
     graph = create_rdf_graph(investigation)
     graph.serialize(destination='../../data/Su_2020_FAIR/isa.ttl', format='turtle')
+    re_base_uri()
     return
 
 # main
