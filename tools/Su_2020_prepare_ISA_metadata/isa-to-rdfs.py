@@ -26,17 +26,15 @@ def load_isa(isa_file):
 def create_rdf_graph(investigation):
     '''Creating an RDF graph from an ISA Investigation
     '''
-    set_context(vocab='wdt', all_in_one=False, local=False)
-#    set_context(vocab='obo', all_in_one=False, local=False)
-#    set_context(vocab='sdo', all_in_one=False, local=False)
+    set_context(vocab='wd', local=False, prepend_url='https://fdp.cmbi.umcn.nl/', all_in_one=False)
+    #set_context(vocab='obo', all_in_one=False, local=False)
+    #set_context(vocab='sdo', all_in_one=False, local=False)
 
     ld = investigation.to_dict(ld=True)
     # Creating the namespace
-    WDT = Namespace("http://www.wikidata.org/wiki/")
-    WDTP = Namespace('https://www.wikidata.org/wiki/Property:')
+    WD = Namespace("http://www.wikidata.org/entity/")
     ISA = Namespace('https://isa.org/')
-    TWOC = Namespace('file:///D:/CMBI_work/Projects/TWOCdemonstrator/tools/Su_2020_prepare_ISA_metadata')
-    #OBO = Namespace('http://purl.obolibrary.org/obo/')
+    OBO = Namespace('http://purl.obolibrary.org/obo/')
 
 
     ld_string = json.dumps(ld) # Get a string representation of the ld variable
@@ -44,11 +42,9 @@ def create_rdf_graph(investigation):
     graph.parse(data=ld_string, format='json-ld') # Load the data into the graph
 
     # Finally, bind the namespaces to the graph
-    graph.bind('wdt', WDT)
+    graph.bind('wdt', WD)
     graph.bind('isa', ISA)
-    graph.bind('wdtp', WDTP)
-    graph.bind('twoc', TWOC)
-    #graph.bind('obo', OBO)
+    graph.bind('obo', OBO)
     return graph
 
 def re_base_uri():
@@ -75,8 +71,8 @@ def re_base_uri():
 def main(file):
     investigation = load_isa(file)
     graph = create_rdf_graph(investigation)
-    graph.serialize(destination='../../data/Su_2020_FAIR/isa.ttl', format='turtle')
-    re_base_uri()
+    graph.serialize(destination='../../data/Su_2020_FAIR/isa-14.ttl', format='turtle')
+    #re_base_uri()
     return
 
 # main
