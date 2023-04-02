@@ -13,7 +13,7 @@ mappings:
       - ['individualIDs-vs-age.csv~csv']
     s: ex:$(StudySubjectID)
     po:
-      - [a, sio:SIO_000498] # a person
+      - [a, sio:SIO_000498] #  a person
       - [sio:SIO_000008, ex:$(Age)] # has attribute
   age:
     source:
