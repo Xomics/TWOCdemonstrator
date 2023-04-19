@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "isatools"
+version = "0.14.2"
+description = "isatools latest 04.2023"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "yes"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
