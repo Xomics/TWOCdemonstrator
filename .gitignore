@@ -352,3 +352,4 @@ MigrationBackup/
 
 # Jupyter notebook
 tools/python_read_omics/.ipynb_checkpoints/
+.DS_Store
