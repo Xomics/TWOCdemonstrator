@@ -59,27 +59,17 @@ if __name__ == '__main__':
         prefix edam: <http://edamontology.org/>
         prefix sio: <http://semanticscience.org/resource/>
         prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+        prefix ncit: <http://purl.obolibrary.org/obo/>
+        prefix mondo: <http://purl.obolibrary.org/obo/mondo.owl/
+        prefix gecko: <http://purl.obolibrary.org/obo/gecko.owl/
+        prefix exo: <http://purl.obolibrary.org/obo/exo.owl/
 
-prefix  ncit: <http://purl.obolibrary.org/obo/>
-
-prefix  mondo: <http://purl.obolibrary.org/obo/mondo.owl/>
-
-prefix  gecko: <http://purl.obolibrary.org/obo/gecko.owl/>
-
-prefix  exo: <http://purl.obolibrary.org/obo/exo.owl/>
-
-select (count(?s) as ?Number_of_Covid19_Diagnosed_ICU_admitted)
-
-where {
-
-?s mondo:C173069 ?covid .
-
-?s ncit:NCIT_C53511 ?icu .
-
-FILTER (?covid = true)
-
-FILTER (?icu = true)
-
-}
+        select (count(?s) as ?Number_of_Covid19_Diagnosed_ICU_admitted)
+        where {
+        ?s mondo:C173069 ?covid .
+        ?s ncit:NCIT_C53511 ?icu .
+        FILTER (?covid = true)
+        FILTER (?icu = true)
+        }"""
     fname = 'test_result.txt'
     sparql_query_to_file(q2, fname)
