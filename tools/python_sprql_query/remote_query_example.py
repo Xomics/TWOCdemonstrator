@@ -38,7 +38,7 @@ if __name__ == '__main__':
         prefix exo: <http://purl.obolibrary.org/obo/exo.owl/>
 
         select (count(?o) as ?Number_of_Covid19_Diagnosed)
-            where { SERVICE <https://fdp.cmbi.umcn.nl/blazegraph/sparql>{
+            where { SERVICE <http://145.38.185.93:7200/sparql>{
                 ?s mondo:C173069 ?o .}
                 FILTER (?o = true)
             }"""
@@ -50,7 +50,24 @@ if __name__ == '__main__':
             where { SERVICE <https://fdp.cmbi.umcn.nl/blazegraph/sparql>{
                 ?s ?p ?o .}
             } LIMIT 1000 """  
+    
+    q3 = """
+        select ?s ?p ?occurrence 
+            where { SERVICE <http://145.38.185.93:7200/repositories/fdp>{
+            ?s ?p ?occurrence .
+            filter (regex(?occurrence, "COVID")) 
+            #identify the occurrence of "COVID" in object
+            }
+            } LIMIT 1000 """ 
+    
+    q4 = """select ?s ?p ?occurrence where { SERVICE <http://145.38.185.93:7200/repositories/fdp>{
+        ?s ?p ?occurrence .
+        filter (regex(?occurrence, "COVID"))} #identify the occurrence of "COVID" in object
+
+} limit 100 
+
+"""
     # q2 is used to generte a file with 1000 triples of all the data in the
     # fdp triplestore
     fname = 'test_result.txt'
-    sparql_query_to_file(q2, fname)
+    sparql_query_to_file(q3, fname)
