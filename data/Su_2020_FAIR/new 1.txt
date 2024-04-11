@@ -1,0 +1,213 @@
+
+
+<https://fdp.cmbi.umcn.nl/#assay/31f08cfa-e616-4527-a0d8-4117409dd8f6> a wdt:Q739897 ; !  (assay)
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#ontology_annotation/ffcc5746-4aff-43dd-bd09-3d216319323b> ; !
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#ontology_annotation/e56b1aec-14f4-4a20-a224-808ce7fdc325>, !
+        ""^^wdt:Q11016 ;  (technology)
+    wdt:P527 <https://fdp.cmbi.umcn.nl/#data_file/02cf8481-481c-49bc-a383-7644cac83ef0>,
+        <https://fdp.cmbi.umcn.nl/#data_file/042b4810-6bb0-47eb-8cd2-08f2a37dedd5>,
+        <https://fdp.cmbi.umcn.nl/#data_file/07793af9-f642-4091-bd39-9c597b7dc6c5>,
+        <https://fdp.cmbi.umcn.nl/#data_file/0d8f86dc-2dac-4186-8635-36d603e5cbae>,
+        <https://fdp.cmbi.umcn.nl/#data_file/0e330171-c9b8-40c1-8336-6e413ccd7c2f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/0f3c82ed-8315-47f6-bb08-0a9af8dd9a0f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/170153aa-66cd-4a92-8166-57a0fe103e48>,
+        <https://fdp.cmbi.umcn.nl/#data_file/1bea69c3-cd03-4900-b2e6-45a3a806162f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/1d064c83-4ae5-4e5d-897e-c083212e6750>,
+        <https://fdp.cmbi.umcn.nl/#data_file/1e67da9b-3fa6-42f8-b0c7-5c9fbf8244de>,
+        <https://fdp.cmbi.umcn.nl/#data_file/20601fdc-9fd6-4013-8777-9514a8194f1e>,
+        <https://fdp.cmbi.umcn.nl/#data_file/22279a02-c47a-4615-9854-a39c14c3e128>,
+        <https://fdp.cmbi.umcn.nl/#data_file/2557b9ca-1044-4b49-9966-3e30758c8aa2>,
+        <https://fdp.cmbi.umcn.nl/#data_file/26320547-d3cc-4485-bd05-24744efd1e8b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/27553f16-db7b-47e3-9b67-3fac06f97d01>,
+        <https://fdp.cmbi.umcn.nl/#data_file/299eb528-2eb8-4c84-9d6a-34873ee9b862>,
+        <https://fdp.cmbi.umcn.nl/#data_file/29e6152e-49ea-413e-85fe-11965c1b1e95>,
+        <https://fdp.cmbi.umcn.nl/#data_file/2a003406-e083-4acd-8290-d520544f0fa3>,
+        <https://fdp.cmbi.umcn.nl/#data_file/2b47435a-2766-4798-9af0-bc61804d1808>,
+        <https://fdp.cmbi.umcn.nl/#data_file/2e9ca1ed-306f-4944-94e5-b14871945137>,
+        <https://fdp.cmbi.umcn.nl/#data_file/2ff77cbe-8fcd-4c6c-8c98-432e33edefc5>,
+        <https://fdp.cmbi.umcn.nl/#data_file/30386a4f-e86b-47ab-869d-687d44b97bfc>,
+        <https://fdp.cmbi.umcn.nl/#data_file/30909212-f544-4f0a-85df-eda93598c36a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/3225242e-1ae2-4f35-ae62-860071b7e44f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/32837d3e-a3ea-4923-a7c1-cf50d3dd6836>,
+        <https://fdp.cmbi.umcn.nl/#data_file/367f28e4-fb38-4dc8-a1e7-bee632e38d38>,
+        <https://fdp.cmbi.umcn.nl/#data_file/384a23a6-0a88-4d13-9a0b-9a57bc204309>,
+        <https://fdp.cmbi.umcn.nl/#data_file/4204c4fa-a7ca-4e7a-bec8-babe584d6fa0>,
+        <https://fdp.cmbi.umcn.nl/#data_file/42a92b80-bddf-4831-895b-b712e9226c9a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/451b0cc5-2370-494c-96b2-8012011d69cf>,
+        <https://fdp.cmbi.umcn.nl/#data_file/457c4c6b-30d6-4498-ade9-d7c0457a118a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/45f7ce04-fb13-4198-be8c-7b06e6b43f71>,
+        <https://fdp.cmbi.umcn.nl/#data_file/47288920-fc86-4a96-af7f-2c9db8e54a61>,
+        <https://fdp.cmbi.umcn.nl/#data_file/474bf1b1-d52c-4478-abfd-5fc407a4a940>,
+        <https://fdp.cmbi.umcn.nl/#data_file/4a49027c-16b9-4079-be67-5a1fb39a3aaf>,
+        <https://fdp.cmbi.umcn.nl/#data_file/4b39842b-bda1-4ddb-9d95-0626b2329958>,
+        <https://fdp.cmbi.umcn.nl/#data_file/4d5aae37-35f5-43a7-a37a-4ec523b883f1>,
+        <https://fdp.cmbi.umcn.nl/#data_file/4e353a16-c184-4e62-bd51-eda330d317e7>,
+        <https://fdp.cmbi.umcn.nl/#data_file/513b2e8d-6b2f-4e45-a583-70dca6bad7d7>,
+        <https://fdp.cmbi.umcn.nl/#data_file/55275c45-a091-4622-9cf8-a1b2d2bf04ab>,
+        <https://fdp.cmbi.umcn.nl/#data_file/5646054d-67c7-4922-9c28-8323ab78272b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/56cba0e4-2f20-4e89-838d-05895db439ba>,
+        <https://fdp.cmbi.umcn.nl/#data_file/56f7c343-23ca-4412-ad5a-38023af2e4c6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/580bc1e8-9640-48c6-a310-5f5e445e5615>,
+        <https://fdp.cmbi.umcn.nl/#data_file/59688ed7-ca6b-459b-985b-030664e9b55e>,
+        <https://fdp.cmbi.umcn.nl/#data_file/59a845e5-220f-4a71-8f9c-091ffff911e5>,
+        <https://fdp.cmbi.umcn.nl/#data_file/59d4a0e5-7a96-40b2-8161-1f3800680086>,
+        <https://fdp.cmbi.umcn.nl/#data_file/5d6a1a63-a302-441c-9f7b-737c28f799f6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/5dc73f8e-9626-4c9a-bc9a-c7123a620ba6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/5e54a57b-c6fd-4683-9fb0-18877688136a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/61e10ce6-8bbd-421a-9348-bfeae59abf30>,
+        <https://fdp.cmbi.umcn.nl/#data_file/63959673-29fa-4a7d-b772-42080b526ec0>,
+        <https://fdp.cmbi.umcn.nl/#data_file/63ca14bf-2362-4208-aca2-67cd91c63aa8>,
+        <https://fdp.cmbi.umcn.nl/#data_file/65077948-f806-44cd-9a4d-298d782e26ca>,
+        <https://fdp.cmbi.umcn.nl/#data_file/653ee2d1-bd43-4b40-a748-39f068007318>,
+        <https://fdp.cmbi.umcn.nl/#data_file/67eaa423-7bdf-489c-ad72-2c8ed71da73a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6974363a-3c38-4700-bf63-fc0ab57e1f3a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6a4534e8-bf9a-4529-a025-b2a35798f9cf>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6a5733b3-8072-4537-af3a-fdca504c61a1>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6bb181fa-784a-45d7-8327-ae5ba8cb0020>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6e8bfd9d-6667-435c-85d6-f8ea6228fd3b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6e9ef794-979f-41ec-899f-b433569b95c6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6ee43bb8-5c2b-4f8d-84f5-92975f89be0d>,
+        <https://fdp.cmbi.umcn.nl/#data_file/6f5e3967-951f-49dc-994b-84f7a18bd556>,
+        <https://fdp.cmbi.umcn.nl/#data_file/74770680-1b82-472a-b311-524c779fc2b9>,
+        <https://fdp.cmbi.umcn.nl/#data_file/74c7a391-58a4-45f7-b44d-28dfd5e46bb9>,
+        <https://fdp.cmbi.umcn.nl/#data_file/75aeb7af-cf1a-4eb2-abe3-a45408f60a67>,
+        <https://fdp.cmbi.umcn.nl/#data_file/762c937a-5b2a-40d5-a8d7-140628c4a1b8>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7b495f55-bd5d-4f76-9117-545a80d23b62>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7bf625c5-6984-48a1-8c80-23106202a376>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7d1dcecb-c4a5-4b68-bdf2-aa4735188146>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7d36b07c-c0f2-4d38-81b8-e11df439cb7c>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7e62e2f1-e3d6-4c7c-a441-a49899a62216>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7e8c9fb3-eb0a-4fd7-a210-614d7c943b1c>,
+        <https://fdp.cmbi.umcn.nl/#data_file/800b13d5-065f-4788-9c11-586b18c7f9c6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/81530ec2-f672-4ec1-a824-188289cc10f0>,
+        <https://fdp.cmbi.umcn.nl/#data_file/81669302-8142-4a30-8708-afc935b903af>,
+        <https://fdp.cmbi.umcn.nl/#data_file/81e7a026-4fd2-4a77-88e9-ef41f64d4d53>,
+        <https://fdp.cmbi.umcn.nl/#data_file/81f2ed1a-46ee-493b-939f-282c16f7098f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/830c085a-2489-413c-83e0-ca367b7c7965>,
+        <https://fdp.cmbi.umcn.nl/#data_file/86222929-fd63-4cec-b8ce-d4bfc4e5c0da>,
+        <https://fdp.cmbi.umcn.nl/#data_file/883111fa-7e86-42d7-abaa-0042fab3eafe>,
+        <https://fdp.cmbi.umcn.nl/#data_file/897ed062-a998-48c3-a222-3e7c6769c616>,
+        <https://fdp.cmbi.umcn.nl/#data_file/8a936d20-8495-431a-a057-6013dec5e285>,
+        <https://fdp.cmbi.umcn.nl/#data_file/8a9bacfc-2c2b-4d99-b3f8-33a89b0a23a0>,
+        <https://fdp.cmbi.umcn.nl/#data_file/8c5cf71b-0ba8-45b5-804d-653b118c3806>,
+        <https://fdp.cmbi.umcn.nl/#data_file/8f383a04-26f7-4b30-a57a-adfad624eb65>,
+        <https://fdp.cmbi.umcn.nl/#data_file/9347d01f-4a72-4b8d-92d8-36583268a941>,
+        <https://fdp.cmbi.umcn.nl/#data_file/954f9a10-dcc1-40ae-a6e3-e3c976e12f2a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/9839ed71-693f-40b6-af52-09cc9ebf125b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/9c396d0f-24a9-4ce1-aca9-4051d3d28eb7>,
+        <https://fdp.cmbi.umcn.nl/#data_file/9e3443fa-c632-4bd7-98ee-1ed03ce0851b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a059e175-3279-43b2-a6a8-954ef44a24be>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a165269e-5497-4cf5-a98b-9468b815c1ca>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a21bfb4e-f80a-4544-a2d8-f2705ff1e67e>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a3231755-9e77-4cae-87f6-646292157754>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a745b8af-7e18-4d80-921d-cd313ab48fb9>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a786820e-6ebc-4433-9bc8-adc9d1b2fcac>,
+        <https://fdp.cmbi.umcn.nl/#data_file/a9c7d6a4-3261-4384-b51a-dd6ac013c257>,
+        <https://fdp.cmbi.umcn.nl/#data_file/ab4c1883-2f79-4627-9f14-6a78adf7ec9e>,
+        <https://fdp.cmbi.umcn.nl/#data_file/ad367dee-20ea-443e-9902-673bc6580653>,    !
+        <https://fdp.cmbi.umcn.nl/#data_file/b02bec56-25fa-44a6-af5d-d0eb28992d2a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b0fdfc7a-a542-4920-898f-8889be5a67ed>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b1b91817-e945-4b71-ab14-45f45b22c56b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b4859a73-2d64-4695-95da-05d7e1e9b858>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b4da0a58-47dd-4b64-85f0-598221afaba6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b4dc6579-50ed-4fe9-ab14-e43f5f9ce637>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b6904d4b-0365-4f73-b15f-9b3ff9c46f19>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b7841e32-99df-42b9-b99c-3e080fce809f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b7dfb251-534f-418d-8945-51d7d6f595b7>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b97bd7e4-81b8-4a67-929f-ebccdbded972>,
+        <https://fdp.cmbi.umcn.nl/#data_file/ba491b22-11a9-4c73-8ae9-ffe432c8a2ec>,
+        <https://fdp.cmbi.umcn.nl/#data_file/bb085c19-9786-44c5-92f9-2bc14c56d482>,
+        <https://fdp.cmbi.umcn.nl/#data_file/bcab51fd-1215-4229-9da6-3398af79753f>,
+        <https://fdp.cmbi.umcn.nl/#data_file/beb4b2ec-48ca-4d22-8bd5-27e71f185afe>,
+        <https://fdp.cmbi.umcn.nl/#data_file/c19b62ab-4a26-469d-958c-95bab0f9637a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/c26aaa74-debe-4cef-ab81-6198571bb536>,
+        <https://fdp.cmbi.umcn.nl/#data_file/c46c3665-4cb8-4eb7-91d9-e0eb3e682b00>,
+        <https://fdp.cmbi.umcn.nl/#data_file/c4c9fb7d-8279-40a3-a27e-645aa4fcdb23>,
+        <https://fdp.cmbi.umcn.nl/#data_file/c4da99a4-11bf-48e9-82f6-c6feb021e2e6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/cc5954a4-c2f8-4f4d-b0d1-25379990d88b>,
+        <https://fdp.cmbi.umcn.nl/#data_file/ce34bc74-c6aa-480b-8f3e-a566c7e410f4>,
+        <https://fdp.cmbi.umcn.nl/#data_file/d36b393e-f65b-4744-8841-ea8031a2873c>,
+        <https://fdp.cmbi.umcn.nl/#data_file/d64af7d0-e08a-4b8e-aa20-97fa520f7af1>,
+        <https://fdp.cmbi.umcn.nl/#data_file/d77fa160-be13-4c64-885b-1ad2dc155b63>,
+        <https://fdp.cmbi.umcn.nl/#data_file/d8d92cdb-80da-4c5b-8375-f825d02b469e>,
+        <https://fdp.cmbi.umcn.nl/#data_file/d8dd7da1-cccd-41eb-8bcd-6cfcd81c1452>,
+        <https://fdp.cmbi.umcn.nl/#data_file/d9ca8bf5-dee8-4203-834a-cbb34f573e00>,
+        <https://fdp.cmbi.umcn.nl/#data_file/da20c739-17a4-4202-9e69-ba76a057f015>,
+        <https://fdp.cmbi.umcn.nl/#data_file/e19f9c1a-72e2-45e1-902f-b133449062c2>,
+        <https://fdp.cmbi.umcn.nl/#data_file/e7731f23-4d3f-4539-871a-29ae98373441>,
+        <https://fdp.cmbi.umcn.nl/#data_file/e7c47623-157a-4b2a-88fe-86c284d29424>,
+        <https://fdp.cmbi.umcn.nl/#data_file/e819d36c-de90-4368-8258-bb6c6bb2bf45>,
+        <https://fdp.cmbi.umcn.nl/#data_file/e84ac4ac-88de-4919-a2bf-49ebd7d372dc>,
+        <https://fdp.cmbi.umcn.nl/#data_file/ea3d191d-d291-473d-a7a5-894ba97ca0ef>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f144a8e4-33e8-497c-9ac4-a28185f02a00>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f4bbc384-2179-4222-9c31-fdc077fce8d6>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f4ffb321-5dbf-4cb9-9573-a2cade7a95cd>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f5332da5-7ba3-4829-8d54-df3e2f8f4646>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f5c340a4-f5b3-4e8a-9348-0278b6d0714a>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f5da6a3c-40d6-4190-ae53-c2545cd49dd9>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f709425c-6adc-4ee9-b5bd-03deec77ca68>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f752b3fa-b618-4ff4-abe1-bb130eae3b03>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f9e45eca-4d04-4288-8440-cdb68af1abe9>,
+        <https://fdp.cmbi.umcn.nl/#data_file/ff9a0e78-e8d1-4c3a-9167-e7e9430a13c5>,
+
+
+		
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/ffcc5746-4aff-43dd-bd09-3d216319323b> a wdt:Q857525 ;  (annotation)
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0002631"^^wdt:Q1417099,    ! (accession number)
+        "single-cell RNA sequencing assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .  (ontology)
+	
+	
+	
+	<https://fdp.cmbi.umcn.nl/#data_file/ad367dee-20ea-443e-9902-673bc6580653> a wdt:Q5227290 ;   ! (data file)
+    wdt:P527 "Pseudobulk File"^^wdt:Q5227290,   (data file)
+        "../../data/Su_2020_FAIR\\transcriptomics\\ transcriptomics_Su_2020_feature-data.csv"^^wdt:Q82799 . (name)
+		
+		
+		
+
+<https://fdp.cmbi.umcn.nl/#data_file/cc5954a4-c2f8-4f4d-b0d1-25379990d88b> a wdt:Q5227290 ;  ! (data file)
+    wdt:P527 "Single-cell Sequencing Raw Data File"^^wdt:Q5227290,
+        "scs_qc_extract_INCOV002-BL.tsv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#material/550119ff-4c5e-4e65-9706-b96ee2a4f0a1> a wdt:Q53617407 ; (physical entity)
+    wdt:P1448 "extract_INCOV002-BL"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+	
+	
+<https://fdp.cmbi.umcn.nl/#material/5cbb0765-b315-4b91-8a9a-14d07186f9a5> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV002-BL"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+
+<https://fdp.cmbi.umcn.nl/#material/eadc44f6-e7db-4030-92e7-d6f1049fbd07> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV002-BL"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+
+<https://fdp.cmbi.umcn.nl/#process/462107e4-fef3-4da5-a663-2b7af0e80808> a wdt:Q3249551 ; (process)
+    wdt:P137 ""^^wdt:Q215627 ;  (person)
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 "metabolite_identification_INCOV002-BL"^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/8c3f659c-c856-47a0-9f66-129f91bef4e2> ;
+    wdt:P156 <http://xomics/#process/c5bc1a8d-7372-4332-b18b-fefbb3b4ba44> ;
+    wdt:P2283 <http://xomics/#data_file/6daab019-38dd-428a-8830-9a2c7e645941>,
+        <http://xomics/#protocol/3fba5f63-6fa0-41b1-ad6c-42d6fac3d5eb> .
+		
+<https://fdp.cmbi.umcn.nl/#process/8c3f659c-c856-47a0-9f66-129f91bef4e2> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/6daab019-38dd-428a-8830-9a2c7e645941> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 "mass_spectrometry_INCOV002-BL"^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/396b7059-cf24-49fb-ae3a-ec68caa120fd> ;
+    wdt:P156 <http://xomics/#process/462107e4-fef3-4da5-a663-2b7af0e80808> ;
+    wdt:P2283 [ ],
+        [ ],
+        [ ],
+        <http://xomics/#protocol/25477e86-742c-4fb7-8388-f6f9e9933400> .
+		
+		
+<https://fdp.cmbi.umcn.nl/#sample/fe2fc810-97aa-4238-8e5e-1e1c635a6aa3> a wdt:Q53617407 ;
+    wdt:P1448 "INCOV002-BL"^^wdt:Q82799 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#characteristic/471c6943-7358-46ff-95ce-536662565ab0> ;
+    wdt:P9072 <http://xomics/#source/ad726f95-3631-4b54-b582-1052726be315> .

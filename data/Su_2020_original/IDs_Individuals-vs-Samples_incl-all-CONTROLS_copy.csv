@@ -1,0 +1,3 @@
+﻿Study Subject ID,Sample ID,BD Time-Point,Transcript.,Metabol.,Prote.,Sex,Age,,* ref = see earlier Master Table ; ** T2 Transcriptomics samples are available but were not included in our FAIRification process
+INCOV001,INCOV001-BL,T1,Y,Y,Y,ref,ref,,;
+INCOV001,INCOV001-AC,T2,N,Y,Y,ref,ref,,;

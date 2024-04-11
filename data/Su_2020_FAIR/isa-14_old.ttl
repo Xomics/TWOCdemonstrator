@@ -1,0 +1,1270 @@
+@prefix ns1: <https://www.wikidata.org/wiki/Property:> .
+@prefix ns2: <@> .
+@prefix wdt: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fdp.cmbi.umcn.nl/#investigation/54a9245e-1a65-47f1-a555-ac2db680296f> a wdt:Q170584 ;
+    wdt:P1476 "Trusted World of Corona (TWOC)"^^wdt:Q783521 ;
+    wdt:P1552 "The goal of this trusted guide to the world of COVID-19 is to help clinicians, the scientific community, policy makers and politicians and the public at large to get near real time accurate, expert-annotated and specific information in a modern, user friendly and easily accessible format. The benefits will include better use of treatments, faster development of vaccines and a clearer view on factors that may negatively affect the outcomes of a COVID-19 infection and other future virus outbreaks. Website: https://www.health-holland.com/project/2020/trusted-world-of-corona"^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#ontology_source/0f7d94c9-f3a4-4960-b334-b1bf40833757>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/1dfb8bb1-0c46-45a6-9fd8-5ceafd18e572>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/2b61cb27-ae00-437f-8311-e14f3bcb208c>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/2c8d030d-7526-43ed-9e34-1d41175986ea>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/36257908-2c19-42bd-95a9-901f60c3485e>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/36d2700f-bba6-4ab3-b2fc-7f1f882b4471>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/4f5bad67-2a09-4fde-a5c7-00fe2d2c64ca>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/7d38636f-2970-4266-9dc9-4135cdc901f8>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/822b384b-c130-48d5-b2aa-7d83088fdedd>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/9ec734da-622a-4ec1-87ab-1aa40c7671a7>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/a477ff5a-53d5-4d2d-b6d5-6f0d0178f2db>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/adedcf84-ed73-4a06-bc62-e5ee8a1d8a35>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/c32886aa-98ad-4fd9-a33b-97382e78918b>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/cfe10ca3-c257-47c9-a949-ed728b49fa25>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/e08c5e1e-4046-4009-af7c-92cc1681f452>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/ee1fb182-c9ba-4f74-81ff-445ae33faf96>,
+        <https://fdp.cmbi.umcn.nl/#ontology_source/ef6bf0fc-6a11-4120-bd51-82980b730d0a> ;
+    wdt:P50 <https://fdp.cmbi.umcn.nl/#person/e4270c92-3e34-4b4f-bd16-9bec77cf2bde> ;
+    wdt:P527 <https://fdp.cmbi.umcn.nl/#publication/842b3aff-4131-4250-baf6-fcd9f84f92ea>,
+        <https://fdp.cmbi.umcn.nl/#study/b8e3c5f5-1bc2-4798-829c-a9a387b6bf90> ;
+    wdt:P577 ""^^xsd:date ;
+    wdt:P585 ""^^xsd:date ;
+    wdt:Q853614 <http://xomics/> .
+
+<https://fdp.cmbi.umcn.nl/#assay/151e76eb-8be0-4ec4-807e-6b7d3f5c5e1a> a wdt:Q739897 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#characteristic_category/87cdfe50-c82b-4440-a51e-0bc25a392b81>,
+        <https://fdp.cmbi.umcn.nl/#ontology_annotation/fc34413e-073f-462a-8774-0f8d2b464bee> ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#ontology_annotation/e6d60d0c-63ef-4b45-976d-cda595fd8322>,
+        ""^^wdt:Q11016 ;
+    wdt:P527 <https://fdp.cmbi.umcn.nl/#data_file/9e7369f3-62cd-4db1-a895-9f3f40dcf861>,
+        <https://fdp.cmbi.umcn.nl/#data_file/f25b600c-688e-4e2a-9207-07559cec859c>,
+        <https://fdp.cmbi.umcn.nl/#process/1c28189e-e61f-4057-8d4f-6d195e602687>,
+        <https://fdp.cmbi.umcn.nl/#process/27c2e0ce-a430-40c2-a345-6d39900956dd>,
+        <https://fdp.cmbi.umcn.nl/#process/4289515b-e48c-47bf-a622-81a9a1300542>,
+        <https://fdp.cmbi.umcn.nl/#process/7f87f1a9-c534-461f-be20-b3699cd0e602>,
+        <https://fdp.cmbi.umcn.nl/#process/9ef4f185-683e-4c22-b7e6-224f13ba17a2>,
+        <https://fdp.cmbi.umcn.nl/#process/a9648c90-1f5a-4f00-bca6-60873a43195e>,
+        <https://fdp.cmbi.umcn.nl/#process/a9d632c6-fcd7-469c-93a6-66202d3b91e7>,
+        <https://fdp.cmbi.umcn.nl/#process/facf9dc3-1278-4fea-abd9-d2ded5fed77e> ;
+    wdt:P7793 "a_assay_proteomics.txt"^^wdt:Q1144928 ;
+    wdt:Q53617407 <http://xomics/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493>,
+        <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047>,
+        <https://fdp.cmbi.umcn.nl/#material/4536bc49-bf96-486b-a9ca-d1b7ba2d272d>,
+        <https://fdp.cmbi.umcn.nl/#material/dd84bd14-eff0-4201-8684-a30b3655b8ce> .
+
+<https://fdp.cmbi.umcn.nl/#assay/17457e82-b6c3-4d4c-be77-e613a7dfdbaf> a wdt:Q739897 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#characteristic_category/78ffac4c-ae2a-4c39-9922-42dcb6ababa7>,
+        <https://fdp.cmbi.umcn.nl/#ontology_annotation/276a7402-ed5f-458a-803e-51aa649839da> ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#ontology_annotation/7bc7519b-bb77-491b-a8d4-e49dab860da0>,
+        ""^^wdt:Q11016 ;
+    wdt:P527 <https://fdp.cmbi.umcn.nl/#data_file/48f05ff9-20d9-4c3f-b252-b5890c96c846>,
+        <https://fdp.cmbi.umcn.nl/#data_file/7208d2d4-358e-4397-b3e7-db96c26eca1e>,
+        <https://fdp.cmbi.umcn.nl/#process/09d006b0-326f-46a0-b207-f63e03654750>,
+        <https://fdp.cmbi.umcn.nl/#process/2227c1f3-ed2d-42f7-8a85-af4844858f2d>,
+        <https://fdp.cmbi.umcn.nl/#process/225976e1-e369-47e3-821c-ceddccd14d4b>,
+        <https://fdp.cmbi.umcn.nl/#process/34871c95-4dbe-4ad3-81c2-a0b4084c4f8c>,
+        <https://fdp.cmbi.umcn.nl/#process/3832d914-f3b7-49d5-afb9-70483ca1f217>,
+        <https://fdp.cmbi.umcn.nl/#process/5f891786-2302-47e7-8318-3dc0fe335104>,
+        <https://fdp.cmbi.umcn.nl/#process/93c2683a-321c-40bd-b1de-536ee5176e74>,
+        <https://fdp.cmbi.umcn.nl/#process/b7cd2afe-e6fa-485e-b6fd-322f80b4f488>,
+        <https://fdp.cmbi.umcn.nl/#process/c2a7405a-d805-4920-84fc-3fecebd360e3>,
+        <https://fdp.cmbi.umcn.nl/#process/c67987a6-333f-47bf-a8ab-7c9a67349d6b>,
+        <https://fdp.cmbi.umcn.nl/#process/e0a84328-e8b7-4bdd-bc86-c6c67e7b3fc9> ;
+    wdt:P7793 "a_assay_metabolomics.txt"^^wdt:Q1144928 ;
+    wdt:Q53617407 <http://xomics/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493>,
+        <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047>,
+        <https://fdp.cmbi.umcn.nl/#material/78248314-54ff-41d1-b7be-aa1fd8849db7>,
+        <https://fdp.cmbi.umcn.nl/#material/96d05d17-d9ea-46b6-9b11-20b683c77f62> .
+
+<https://fdp.cmbi.umcn.nl/#assay/2e4febcf-bc5f-4035-8d27-2d2abff63470> a wdt:Q739897 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#ontology_annotation/6a2751fd-fe2b-4fec-9f16-e7fba7543d69> ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#ontology_annotation/9204f3f7-fb48-4c53-bf7d-624f163dccb5>,
+        ""^^wdt:Q11016 ;
+    wdt:P527 <https://fdp.cmbi.umcn.nl/#data_file/5599ef25-cf4c-4123-9a6a-d6677e315dd0>,
+        <https://fdp.cmbi.umcn.nl/#data_file/b15f8b2e-9570-4199-bb38-da8cb40fea0e>,
+        <https://fdp.cmbi.umcn.nl/#data_file/cd50b34a-3168-41f7-86fd-f2a59a799fde>,
+        <https://fdp.cmbi.umcn.nl/#process/13a13770-a565-42cc-a133-5de2e439dfae>,
+        <https://fdp.cmbi.umcn.nl/#process/6b72619f-1397-4753-bae9-873574afc721>,
+        <https://fdp.cmbi.umcn.nl/#process/c14323c6-5205-4ed2-88d5-2c7b3bda2358>,
+        <https://fdp.cmbi.umcn.nl/#process/e97b819f-8f9f-4381-af29-e31fa0b38986>,
+        <https://fdp.cmbi.umcn.nl/#process/f1cb0352-52d0-4e93-b255-f646c2a34ff6> ;
+    wdt:P7793 "a_assay_transcriptomics.txt"^^wdt:Q1144928 ;
+    wdt:Q53617407 <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047>,
+        <https://fdp.cmbi.umcn.nl/#material/ebc650eb-d2e6-42ca-b007-73d2b06edaba> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/164253eb-78f3-43e3-b93e-4e473f7d18a2> a wdt:Q951437 ;
+    wdt:P111 "NO"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/bba2336f-359f-4d36-b8ff-3282eb69c74a> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/16f3936c-59fc-4f85-89ba-4c6b9c9d2bd7> a wdt:Q951437 ;
+    wdt:P111 "3.0"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/24dd6487-76d9-40f1-b733-339ba6ac266d> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/17a01a25-fdef-4605-aaec-61eb3660e074> a wdt:Q951437 ;
+    wdt:P111 "NO"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/948473af-deca-4d90-85e3-eb7297cbe0d6> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/3cd7b8a9-9393-4309-99ac-d264e42e77ec> a wdt:Q951437 ;
+    wdt:P111 "33.7"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/e161452b-1adf-40e0-b013-d902319f4c2b> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/55509586-bb81-434f-8c6a-57ec378c4402> a wdt:Q951437 ;
+    wdt:P111 "YES"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/74049c22-47bf-4b56-9a09-12387cee7439> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/5890eb6b-a81b-474d-a2ef-c581bb8e95fa> a wdt:Q951437 ;
+    wdt:P111 "YES"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/c6234dd2-1a9f-45a8-aace-2d566bad21db> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/5aa46e75-2544-4891-8035-1638afd4424a> a wdt:Q951437 ;
+    wdt:P111 <https://fdp.cmbi.umcn.nl/#ontology_annotation/718924f9-10d0-4031-995e-b3df878aef9f> ;
+    wdt:P527 <http://xomics/#characteristic_category/50f71d24-f5d5-4b60-b2ff-7ce812968650> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/6040be4d-09fe-467d-bcfa-db05e7a44d0d> a wdt:Q951437 ;
+    wdt:P111 <https://fdp.cmbi.umcn.nl/#ontology_annotation/0dfe1897-8c88-44ea-8152-49f6915e5b3d> ;
+    wdt:P527 <http://xomics/#characteristic_category/50f71d24-f5d5-4b60-b2ff-7ce812968650> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/6c88be71-70de-43d8-9e65-ac6042649644> a wdt:Q951437 ;
+    wdt:P111 <https://fdp.cmbi.umcn.nl/#ontology_annotation/469b4467-817b-4dbb-8307-baa3216234a8> ;
+    wdt:P527 <http://xomics/#characteristic_category/61c8218d-9ab3-40ef-9d17-b165fa0afc43> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/74f83ba5-dc79-493e-b9d4-1bb50266bd5e> a wdt:Q951437 ;
+    wdt:P111 "NO"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/9a3b5d8c-5697-4c12-a0c0-4c820958ec01> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/7b84ac6b-b255-4717-9c8b-ad2c7853dd14> a wdt:Q951437 ;
+    wdt:P111 "Female"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/4cc49c5c-efb0-4ec1-8077-540fff923cde> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/7d8e9646-6086-44fc-8d5f-084da3e3972f> a wdt:Q951437 ;
+    wdt:P111 "Hospital"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/0783b437-a54b-4b8b-a925-34e3c3198535> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/b5ece531-2b7c-40e5-ade3-00f0d5bea7b0> a wdt:Q951437 ;
+    wdt:P111 "77"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/298a20df-1366-4ad5-bd61-ebdc614fca3c> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/ca1194c3-1ac0-4e90-af62-f04669e4d0be> a wdt:Q951437 ;
+    wdt:P111 "Never"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/6e900e69-20fa-4c7f-b6be-f66b816985af> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/d7184bfe-0716-4c3d-a844-6444449484c4> a wdt:Q951437 ;
+    wdt:P111 "Caucasian"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/ffaa5d50-c042-47be-9b90-198b86d78a3e> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/e8465b1a-b7ff-4f9e-87b2-9f2613de9e81> a wdt:Q951437 ;
+    wdt:P111 "NO"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/94aba55b-2e09-42e5-bcdf-890bb272802a> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic/f813c4d9-a1da-452c-8934-e1279bb0f333> a wdt:Q951437 ;
+    wdt:P111 "NO"^^wdt:Q11563 ;
+    wdt:P527 <http://xomics/#characteristic_category/91dde773-5ccc-452d-b015-7318623133d8> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/0783b437-a54b-4b8b-a925-34e3c3198535> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/0783b437-a54b-4b8b-a925-34e3c3198535> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/24dd6487-76d9-40f1-b733-339ba6ac266d> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/24dd6487-76d9-40f1-b733-339ba6ac266d> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/298a20df-1366-4ad5-bd61-ebdc614fca3c> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/298a20df-1366-4ad5-bd61-ebdc614fca3c> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/4cc49c5c-efb0-4ec1-8077-540fff923cde> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/4cc49c5c-efb0-4ec1-8077-540fff923cde> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/50f71d24-f5d5-4b60-b2ff-7ce812968650> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/50f71d24-f5d5-4b60-b2ff-7ce812968650> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/61c8218d-9ab3-40ef-9d17-b165fa0afc43> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/61c8218d-9ab3-40ef-9d17-b165fa0afc43> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/6e900e69-20fa-4c7f-b6be-f66b816985af> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/6e900e69-20fa-4c7f-b6be-f66b816985af> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/74049c22-47bf-4b56-9a09-12387cee7439> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/74049c22-47bf-4b56-9a09-12387cee7439> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/78ffac4c-ae2a-4c39-9922-42dcb6ababa7> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/78ffac4c-ae2a-4c39-9922-42dcb6ababa7> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/87cdfe50-c82b-4440-a51e-0bc25a392b81> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/87cdfe50-c82b-4440-a51e-0bc25a392b81> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/91dde773-5ccc-452d-b015-7318623133d8> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/91dde773-5ccc-452d-b015-7318623133d8> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/948473af-deca-4d90-85e3-eb7297cbe0d6> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/948473af-deca-4d90-85e3-eb7297cbe0d6> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/94aba55b-2e09-42e5-bcdf-890bb272802a> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/94aba55b-2e09-42e5-bcdf-890bb272802a> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/9a3b5d8c-5697-4c12-a0c0-4c820958ec01> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/9a3b5d8c-5697-4c12-a0c0-4c820958ec01> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/bba2336f-359f-4d36-b8ff-3282eb69c74a> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/bba2336f-359f-4d36-b8ff-3282eb69c74a> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/c6234dd2-1a9f-45a8-aace-2d566bad21db> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/c6234dd2-1a9f-45a8-aace-2d566bad21db> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/e161452b-1adf-40e0-b013-d902319f4c2b> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/e161452b-1adf-40e0-b013-d902319f4c2b> .
+
+<https://fdp.cmbi.umcn.nl/#characteristic_category/ffaa5d50-c042-47be-9b90-198b86d78a3e> a ns1:Q3523867 ;
+    ns1:Q3707858 <https://fdp.cmbi.umcn.nl/#ontology_annotation/ffaa5d50-c042-47be-9b90-198b86d78a3e> .
+
+<https://fdp.cmbi.umcn.nl/#data_file/48f05ff9-20d9-4c3f-b252-b5890c96c846> a wdt:Q5227290 ;
+    wdt:P527 "Metabolite Assignment File"^^wdt:Q5227290,
+        "../../data/Su_2020_FAIR\\metabolomics\\metabolomics_Su_2020_feature-metadata.csv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#data_file/5599ef25-cf4c-4123-9a6a-d6677e315dd0> a wdt:Q5227290 ;
+    wdt:P527 "Single-cell Sequencing Raw Data File"^^wdt:Q5227290,
+        "scs_qc_extract_INCOV001-BL.tsv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#data_file/7208d2d4-358e-4397-b3e7-db96c26eca1e> a wdt:Q5227290 ;
+    wdt:P527 "Raw Spectral Data File"^^wdt:Q5227290,
+        "blank"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#data_file/9e7369f3-62cd-4db1-a895-9f3f40dcf861> a wdt:Q5227290 ;
+    wdt:P527 "Raw Spectral Data File"^^wdt:Q5227290,
+        "../../data/Su_2020_FAIR\\proteomics\\proteomics_Su_2020_feature-data.csv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#data_file/b15f8b2e-9570-4199-bb38-da8cb40fea0e> a wdt:Q5227290 ;
+    wdt:P527 "Pseudobulk File"^^wdt:Q5227290,
+        "../../data/Su_2020_FAIR\\transcriptomics\\ transcriptomics_Su_2020_feature-data.csv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#data_file/cd50b34a-3168-41f7-86fd-f2a59a799fde> a wdt:Q5227290 ;
+    wdt:P527 "Feature Annotation File"^^wdt:Q5227290,
+        "../../data/Su_2020_FAIR\\transcriptomics\\transcriptomics_Su_2020_feature-metadata.csv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#data_file/f25b600c-688e-4e2a-9207-07559cec859c> a wdt:Q5227290 ;
+    wdt:P527 "Feature Annotation File"^^wdt:Q5227290,
+        "../../data/Su_2020_FAIR\\proteomics\\proteomics_Su_2020_feature-metadata.csv"^^wdt:Q82799 .
+
+<https://fdp.cmbi.umcn.nl/#material/4536bc49-bf96-486b-a9ca-d1b7ba2d272d> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV001-AC"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+<https://fdp.cmbi.umcn.nl/#material/78248314-54ff-41d1-b7be-aa1fd8849db7> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV001-AC"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+<https://fdp.cmbi.umcn.nl/#material/96d05d17-d9ea-46b6-9b11-20b683c77f62> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV001-BL"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+<https://fdp.cmbi.umcn.nl/#material/dd84bd14-eff0-4201-8684-a30b3655b8ce> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV001-BL"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+<https://fdp.cmbi.umcn.nl/#material/ebc650eb-d2e6-42ca-b007-73d2b06edaba> a wdt:Q53617407 ;
+    wdt:P1448 "extract_INCOV001-BL"^^wdt:Q82799 ;
+    wdt:P527 "Extract Name"^^wdt:Q53617407 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/0783b437-a54b-4b8b-a925-34e3c3198535> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Patient Status"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/0dfe1897-8c88-44ea-8152-49f6915e5b3d> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/UBERON_0000178"^^wdt:Q1417099,
+        "blood"^^<rdfs:label> ;
+    wdt:P5967 "Uber-anatomy ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/0fb87e96-7da5-425a-99f8-88bb232fbf95> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MSIO_0000111"^^wdt:Q1417099,
+        "Derivatization"^^<rdfs:label> ;
+    wdt:P5967 "MS - Mass spectrometry ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/13450fa1-5d4e-4160-ac76-c93735ae3e2e> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Scan m/z range"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/1357ad07-d665-4af8-b270-63d40d3aeba4> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0000626"^^wdt:Q1417099,
+        "DNA sequencing assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/139dd589-279b-4ab3-8536-09dc745c0a83> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CRO_0000065"^^wdt:Q1417099,
+        "project management role"^^<rdfs:label> ;
+    wdt:P5967 "CRO - Contributor Role Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/197671e7-ab38-4893-89e7-2cec3f6a216d> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Column type"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/24cc71c3-ba57-49f9-8047-446529dc3637> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/24dd6487-76d9-40f1-b733-339ba6ac266d> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "COVID-19_Disease_Severity_(WHO_Ordinal)_Scale"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/276a7402-ed5f-458a-803e-51aa649839da> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MSIO_0000100"^^wdt:Q1417099,
+        "targeted metabolite profiling"^^<rdfs:label> ;
+    wdt:P5967 "MS - Mass spectrometry ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/298a20df-1366-4ad5-bd61-ebdc614fca3c> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Age-Years"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/2dc097ff-a97d-4ca1-b51a-203e8f01e321> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/3526ad76-ba98-4e67-8d4e-f85f7cb3f08d> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MS_1000465"^^wdt:Q1417099,
+        "scan polarity"^^<rdfs:label> ;
+    wdt:P5967 "MS - Mass spectrometry ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/3c9e82bf-c81a-4988-b692-d4b26b85c085> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/PRIDE_0000461"^^wdt:Q1417099,
+        "Multi-omics study"^^<rdfs:label> ;
+    wdt:P5967 "PRIDE Controlled Vocabulary"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/3f10744a-d2c0-4bc7-9072-a3ebed029c67> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CHMO_0001000"^^wdt:Q1417099,
+        "chromatography"^^<rdfs:label> ;
+    wdt:P5967 "CHMO - Chemical Methods Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/45d44580-4ae7-4a4b-b666-d69925b21769> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0001110"^^wdt:Q1417099,
+        "real-time PCR instrument"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/469b4467-817b-4dbb-8307-baa3216234a8> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/NCBITaxon_9606"^^wdt:Q1417099,
+        "Homo sapiens"^^<rdfs:label> ;
+    wdt:P5967 "NCBI organismal classification"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/48f0daa8-766d-4fbd-9ce3-e186911d7ca5> a wdt:Q857525 ;
+    wdt:P527 "http://www.ebi.ac.uk/efo/EFO_0030053"^^wdt:Q1417099,
+        "pseudo-bulk aggregation of single-cell expression data"^^<rdfs:label> ;
+    wdt:P5967 "EFO - Experimental Factor Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/4cc49c5c-efb0-4ec1-8077-540fff923cde> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Sex"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/4e1964e5-3919-4e6d-bb43-49dc6c13fc9a> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0302884"^^wdt:Q1417099,
+        "extraction"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/5063b216-f76c-4c98-a67a-417340531c18> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OMIABIS_0001022"^^wdt:Q1417099,
+        "population based study design"^^<rdfs:label> ;
+    wdt:P5967 "Ontologized MIABIS"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/50f71d24-f5d5-4b60-b2ff-7ce812968650> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "anatomical entity"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/510a06db-c16c-4e21-9ffa-37fd6a0b57a2> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/5ac2850c-6646-43de-a7d2-6c3c59fdf328> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0302887"^^wdt:Q1417099,
+        "staining"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/61c8218d-9ab3-40ef-9d17-b165fa0afc43> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Organism"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/6a2751fd-fe2b-4fec-9f16-e7fba7543d69> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0002631"^^wdt:Q1417099,
+        "single-cell RNA sequencing assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/6b420d5c-4134-4252-91fb-f16c07757ff7> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0001110"^^wdt:Q1417099,
+        "real-time PCR machine"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/6e900e69-20fa-4c7f-b6be-f66b816985af> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Smoking"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/718924f9-10d0-4031-995e-b3df878aef9f> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/UBERON_0000178"^^wdt:Q1417099,
+        "blood"^^<rdfs:label> ;
+    wdt:P5967 "Uber-anatomy ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/74049c22-47bf-4b56-9a09-12387cee7439> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "patient"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/74914e3e-bf5c-427b-938f-c83132d34d4e> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CHMO_0001675"^^wdt:Q1417099,
+        "Labelling"^^<rdfs:label> ;
+    wdt:P5967 "CHMO - Chemical Methods Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/78647620-3796-4732-9d66-3d7563a7aab8> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/78ffac4c-ae2a-4c39-9922-42dcb6ababa7> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Label"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/7bc7519b-bb77-491b-a8d4-e49dab860da0> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CHMO_0000524"^^wdt:Q1417099,
+        "liquid chromatography-mass spectrometry"^^<rdfs:label> ;
+    wdt:P5967 "CHMO - Chemical Methods Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/7f2061bc-5569-4fad-bcda-da04dc7d4683> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Panel size"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/7f34833a-c83a-492b-8e2f-e165c37ec298> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Column model"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/7f91ea98-972b-40da-a562-1bc6bd5304fb> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/87cdfe50-c82b-4440-a51e-0bc25a392b81> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Label"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/8e8ccde2-b315-419d-a577-5b6adce85dcf> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0000485"^^wdt:Q1417099,
+        "Chromatography Instrument"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/91dde773-5ccc-452d-b015-7318623133d8> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Asthma"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/9204f3f7-fb48-4c53-bf7d-624f163dccb5> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0002631"^^wdt:Q1417099,
+        "single-cell RNA sequencing assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/948473af-deca-4d90-85e3-eb7297cbe0d6> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Mechanical_Ventilation"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/94aba55b-2e09-42e5-bcdf-890bb272802a> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "DM"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/9648fba5-3318-44e3-bfa4-aa46801f3f47> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/97943f87-7c29-4d30-b1c6-826a9efc7c90> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0200000"^^wdt:Q1417099,
+        "data transformation"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/9a01faba-ff98-4ec0-aef2-13a3f91683ea> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CHMO_0000960"^^wdt:Q1417099,
+        "Ion source"^^<rdfs:label> ;
+    wdt:P5967 "CHMO - Chemical Methods Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/9a3b5d8c-5697-4c12-a0c0-4c820958ec01> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "COPD"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/9a4ae4ec-5f5d-4545-a39b-973281434b1d> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/a80dada2-7e58-45b7-b407-740f0e468c6c> a wdt:Q857525 ;
+    wdt:P527 "http://edamontology.org/operation_0226"^^wdt:Q1417099,
+        "Annotation"^^<rdfs:label> ;
+    wdt:P5967 "EDAM - EMBRACE Data and Methods"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/bba2336f-359f-4d36-b8ff-3282eb69c74a> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Intensive Care Unit"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/bd2bf420-a9b3-4217-bfb4-49a9d5311b94> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CRO_0000001"^^wdt:Q1417099,
+        "author role"^^<rdfs:label> ;
+    wdt:P5967 "CRO - Contributor Role Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/c1ecd378-8971-4d7c-bdd5-938a68c729b4> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/c6234dd2-1a9f-45a8-aace-2d566bad21db> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "COVID-19 Infection"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/c684a471-de27-4bae-b457-524fcfc8284a> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MI_2131"^^wdt:Q1417099,
+        "metabolite identification"^^<rdfs:label> ;
+    wdt:P5967 "MI - Molecular Interactions Controlled Vocabulary"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/cb5dce5d-24e9-4e89-8bdf-1360acc7b1d9> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Post Extraction"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/d4b23512-0b68-4c05-a008-ae311642e795> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Panel amount"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/da49a373-9bac-4739-889a-7503c7e48684> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0003113"^^wdt:Q1417099,
+        "Proximity extension assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/daa365e3-d1ef-4e15-8876-f2bbd8acada3> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MS_1000451"^^wdt:Q1417099,
+        "Mass analyzer"^^<rdfs:label> ;
+    wdt:P5967 "MS - Mass spectrometry ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/dcb3fe26-0f7f-4394-8463-6665321ec325> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MS_1000463"^^wdt:Q1417099,
+        "Instrument"^^<rdfs:label> ;
+    wdt:P5967 "MS - Mass spectrometry ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/dd7a681d-53af-4840-8157-82aa80069e43> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/MI_0357"^^wdt:Q1417099,
+        "method reference"^^<rdfs:label> ;
+    wdt:P5967 "MI - Molecular Interactions Controlled Vocabulary"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/dd8dc60a-1891-40e7-a29f-0083a4be5a18> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CHMO_0000470"^^wdt:Q1417099,
+        "mass spectrometry"^^<rdfs:label> ;
+    wdt:P5967 "CHMO - Chemical Methods Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/e161452b-1adf-40e0-b013-d902319f4c2b> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "BMI"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/e4787f45-bd61-4bc8-8af5-df191e3179e2> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/CRO_0000001"^^wdt:Q1417099,
+        "author role"^^<rdfs:label> ;
+    wdt:P5967 "CRO - Contributor Role Ontology"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/e5995617-30ac-46e7-bc65-a1d54c9e005a> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "PEA Instrument"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/e6d60d0c-63ef-4b45-976d-cda595fd8322> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0000443"^^wdt:Q1417099,
+        "analyte assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/eb976d9e-d065-419e-95de-ad2a3df6bcc4> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0001336"^^wdt:Q1417099,
+        "quality control testing design"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/f4288ecb-32b1-46cd-8fb4-bdb75bb7d11c> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        ""^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/f96395c5-384b-4a0f-92ec-da528157b239> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0000744"^^wdt:Q1417099,
+        "sample collection"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/fc34413e-073f-462a-8774-0f8d2b464bee> a wdt:Q857525 ;
+    wdt:P527 "http://purl.obolibrary.org/obo/OBI_0003229"^^wdt:Q1417099,
+        "plasma proteomics assay"^^<rdfs:label> ;
+    wdt:P5967 "OBI - Ontology for Biomedical Investigations"^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_annotation/ffaa5d50-c042-47be-9b90-198b86d78a3e> a wdt:Q857525 ;
+    wdt:P527 ""^^wdt:Q1417099,
+        "Ethnicity"^^<rdfs:label> ;
+    wdt:P5967 ""^^wdt:Q324254 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/0f7d94c9-f3a4-4960-b334-b1bf40833757> a wdt:Q324254 ;
+    wdt:P1448 "HP - Human Phenotype Ontology"^^wdt:Q82799 ;
+    wdt:P1552 "The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/hp.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/1dfb8bb1-0c46-45a6-9fd8-5ceafd18e572> a wdt:Q324254 ;
+    wdt:P1448 "OBI - Ontology for Biomedical Investigations"^^wdt:Q82799 ;
+    wdt:P1552 "An integrated ontology for the description of life-science and clinical investigations"^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/obi.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/2b61cb27-ae00-437f-8311-e14f3bcb208c> a wdt:Q324254 ;
+    wdt:P1448 "EDAM - EMBRACE Data and Methods"^^wdt:Q82799 ;
+    wdt:P1552 "Bioinformatics operations, data types, formats, identifiers and topics"^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://edamontology.org/EDAM.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/2c8d030d-7526-43ed-9e34-1d41175986ea> a wdt:Q324254 ;
+    wdt:P1448 "Uber-anatomy ontology"^^wdt:Q82799 ;
+    wdt:P1552 "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/uberon.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/36257908-2c19-42bd-95a9-901f60c3485e> a wdt:Q324254 ;
+    wdt:P1448 "CRO - Contributor Role Ontology"^^wdt:Q82799 ;
+    wdt:P1552 "A classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/cro.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/36d2700f-bba6-4ab3-b2fc-7f1f882b4471> a wdt:Q324254 ;
+    wdt:P1448 "CHEBI - Chemical Entities of Biological Interest"^^wdt:Q82799 ;
+    wdt:P1552 "A structured classification of molecular entities of biological interest focusing on 'small' chemical compounds."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/chebi.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/4f5bad67-2a09-4fde-a5c7-00fe2d2c64ca> a wdt:Q324254 ;
+    wdt:P1448 "NCI Thesaurus OBO Edition"^^wdt:Q82799 ;
+    wdt:P1552 "The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. NCIt OBO Edition releases should be considered experimental."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/ncit.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/7d38636f-2970-4266-9dc9-4135cdc901f8> a wdt:Q324254 ;
+    wdt:P1448 "Ontologized MIABIS"^^wdt:Q82799 ;
+    wdt:P1552 "An ontological version of MIABIS (Minimum Information About BIobank data Sharing)"^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/omiabis.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/822b384b-c130-48d5-b2aa-7d83088fdedd> a wdt:Q324254 ;
+    wdt:P1448 "MS - Mass spectrometry ontology"^^wdt:Q82799 ;
+    wdt:P1552 "A structured controlled vocabulary for the annotation of experiments concerned with proteomics mass spectrometry."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/ms.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/9ec734da-622a-4ec1-87ab-1aa40c7671a7> a wdt:Q324254 ;
+    wdt:P1448 "MI - Molecular Interactions Controlled Vocabulary"^^wdt:Q82799 ;
+    wdt:P1552 "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/mi.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/a477ff5a-53d5-4d2d-b6d5-6f0d0178f2db> a wdt:Q324254 ;
+    wdt:P1448 "CHMO - Chemical Methods Ontology"^^wdt:Q82799 ;
+    wdt:P1552 "CHMO, the chemical methods ontology, describes methods used to collect data in chemical experiments, such as mass spectrometry and electron microscopy prepare and separate material for further analysis, such as sample ionisation, chromatography, and electrophoresis synthesise materials, such as epitaxy and continuous vapour deposition It also describes the instruments used in these experiments, such as mass spectrometers and chromatography columns. It is intended to be complementary to the Ontology for Biomedical Investigations (OBI)."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/chmo.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/adedcf84-ed73-4a06-bc62-e5ee8a1d8a35> a wdt:Q324254 ;
+    wdt:P1448 "GECKO - Genomics Cohorts Knowledge Ontology"^^wdt:Q82799 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/gecko.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/c32886aa-98ad-4fd9-a33b-97382e78918b> a wdt:Q324254 ;
+    wdt:P1448 "NCBI organismal classification"^^wdt:Q82799 ;
+    wdt:P1552 "An ontology representation of the NCBI organismal taxonomy"^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/ncbitaxon.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/cfe10ca3-c257-47c9-a949-ed728b49fa25> a wdt:Q324254 ;
+    wdt:P1448 "ExO - Exposure ontology"^^wdt:Q82799 ;
+    wdt:P1552 "ExO is intended to bridge the gap between exposure science and diverse environmental health disciplines including toxicology, epidemiology, disease surveillance, and epigenetics."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/exo.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/e08c5e1e-4046-4009-af7c-92cc1681f452> a wdt:Q324254 ;
+    wdt:P1448 "PRIDE Controlled Vocabulary"^^wdt:Q82799 ;
+    wdt:P1552 "The PRIDE PRoteomics IDEntifications (PRIDE) database is a centralized, standards compliant, public data repository for proteomics data, including protein and peptide identifications, post-translational modifications and supporting spectral evidence."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/pride_cv.obo"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/ee1fb182-c9ba-4f74-81ff-445ae33faf96> a wdt:Q324254 ;
+    wdt:P1448 "MS - Mass spectrometry ontology"^^wdt:Q82799 ;
+    wdt:P1552 "MSIO aims to provide a single point of entry to support semantic markup of experiments making use of NMR and MS techniques to identify, measure and quantify small molecules known as metabolites. MSIO covers metabolite profiling, targeted or undertargeted, tracer based applications. MSIO reuses a number of resources such as CHEBI, DUO, NMRCV, OBI, and STATO."^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://purl.obolibrary.org/obo/msio.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#ontology_source/ef6bf0fc-6a11-4120-bd51-82980b730d0a> a wdt:Q324254 ;
+    wdt:P1448 "EFO - Experimental Factor Ontology"^^wdt:Q82799 ;
+    wdt:P1552 "The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org"^^wdt:Q1200750 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 "http://www.ebi.ac.uk/efo/efo.owl"^^wdt:Q1144928 .
+
+<https://fdp.cmbi.umcn.nl/#person/59f1221b-1c32-44ba-b8ae-575fb20597a6> a wdt:Q215627 ;
+    wdt:IAO_0000235 "R."^^wdt:Q105844397 ;
+    wdt:P1329 ""^^wdt:Q7696507 ;
+    wdt:P2868 <https://fdp.cmbi.umcn.nl/#ontology_annotation/bd2bf420-a9b3-4217-bfb4-49a9d5311b94> ;
+    wdt:P2900 ""^^wdt:Q7696507 ;
+    wdt:P361 "Institute for Systems Biology, Seattle, WA 98109, USA"^^wdt:Q43229 ;
+    wdt:P734 "Heath"^^wdt:Q101352 ;
+    wdt:P735 "James"^^wdt:Q202444 ;
+    wdt:P968 ""^^wdt:Q1273217 .
+
+<https://fdp.cmbi.umcn.nl/#person/e4270c92-3e34-4b4f-bd16-9bec77cf2bde> a wdt:Q215627 ;
+    wdt:IAO_0000235 ""^^wdt:Q105844397 ;
+    wdt:P1329 ""^^wdt:Q7696507 ;
+    wdt:P2868 <https://fdp.cmbi.umcn.nl/#ontology_annotation/139dd589-279b-4ab3-8536-09dc745c0a83> ;
+    wdt:P2900 ""^^wdt:Q7696507 ;
+    wdt:P361 ""^^wdt:Q43229 ;
+    wdt:P734 "Mons"^^wdt:Q101352 ;
+    wdt:P735 "Barend"^^wdt:Q202444 ;
+    wdt:P968 "info@twoc.eu"^^wdt:Q1273217 .
+
+<https://fdp.cmbi.umcn.nl/#person/ef4666c2-9fd6-4337-a825-1cc462755d63> a wdt:Q215627 ;
+    wdt:IAO_0000235 ""^^wdt:Q105844397 ;
+    wdt:P1329 ""^^wdt:Q7696507 ;
+    wdt:P2868 <https://fdp.cmbi.umcn.nl/#ontology_annotation/e4787f45-bd61-4bc8-8af5-df191e3179e2> ;
+    wdt:P2900 ""^^wdt:Q7696507 ;
+    wdt:P361 "Institute for Systems Biology, Seattle, WA 98109, USA"^^wdt:Q43229 ;
+    wdt:P734 "Su"^^wdt:Q101352 ;
+    wdt:P735 "Yanpeng"^^wdt:Q202444 ;
+    wdt:P968 ""^^wdt:Q1273217 .
+
+<https://fdp.cmbi.umcn.nl/#process/09d006b0-326f-46a0-b207-f63e03654750> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#material/78248314-54ff-41d1-b7be-aa1fd8849db7> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P156 <http://xomics/#process/c2a7405a-d805-4920-84fc-3fecebd360e3> ;
+    wdt:P2283 [ ],
+        [ ],
+        <http://xomics/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4>,
+        <http://xomics/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493> .
+
+<https://fdp.cmbi.umcn.nl/#process/101d8330-6555-4f65-822a-71537a49debf> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493>,
+        <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P2283 <http://xomics/#protocol/12b0abe0-2e95-44ea-948e-ec3fd492741f>,
+        <http://xomics/#source/30bfcd8f-b18d-4d37-a82d-a05f8a86f190> .
+
+<https://fdp.cmbi.umcn.nl/#process/13a13770-a565-42cc-a133-5de2e439dfae> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#material/ebc650eb-d2e6-42ca-b007-73d2b06edaba> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P156 <http://xomics/#process/e97b819f-8f9f-4381-af29-e31fa0b38986> ;
+    wdt:P2283 <http://xomics/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4>,
+        <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047> .
+
+<https://fdp.cmbi.umcn.nl/#process/1c28189e-e61f-4057-8d4f-6d195e602687> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/27c2e0ce-a430-40c2-a345-6d39900956dd> ;
+    wdt:P156 <http://xomics/#process/9ef4f185-683e-4c22-b7e6-224f13ba17a2> ;
+    wdt:P2283 [ ],
+        [ ],
+        [ ],
+        <http://xomics/#protocol/f7e8e8a6-6326-4b5d-bc4d-0042ea7302b7> .
+
+<https://fdp.cmbi.umcn.nl/#process/2227c1f3-ed2d-42f7-8a85-af4844858f2d> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#material/96d05d17-d9ea-46b6-9b11-20b683c77f62> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P156 <http://xomics/#process/3832d914-f3b7-49d5-afb9-70483ca1f217> ;
+    wdt:P2283 [ ],
+        [ ],
+        <http://xomics/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4>,
+        <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047> .
+
+<https://fdp.cmbi.umcn.nl/#process/225976e1-e369-47e3-821c-ceddccd14d4b> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/7208d2d4-358e-4397-b3e7-db96c26eca1e> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 "mass_spectrometry_INCOV001-BL"^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/93c2683a-321c-40bd-b1de-536ee5176e74> ;
+    wdt:P156 <http://xomics/#process/34871c95-4dbe-4ad3-81c2-a0b4084c4f8c> ;
+    wdt:P2283 [ ],
+        [ ],
+        [ ],
+        <http://xomics/#protocol/bf972754-f025-432f-a9d0-1518bc9c61f5> .
+
+<https://fdp.cmbi.umcn.nl/#process/27c2e0ce-a430-40c2-a345-6d39900956dd> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/4289515b-e48c-47bf-a622-81a9a1300542> ;
+    wdt:P156 <http://xomics/#process/1c28189e-e61f-4057-8d4f-6d195e602687> ;
+    wdt:P2283 <http://xomics/#material/4536bc49-bf96-486b-a9ca-d1b7ba2d272d>,
+        <http://xomics/#protocol/bb980822-c380-4f1b-86ed-629cbc10b51b> .
+
+<https://fdp.cmbi.umcn.nl/#process/34871c95-4dbe-4ad3-81c2-a0b4084c4f8c> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 "metabolite_identification_INCOV001-BL"^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/225976e1-e369-47e3-821c-ceddccd14d4b> ;
+    wdt:P156 <http://xomics/#process/e0a84328-e8b7-4bdd-bc86-c6c67e7b3fc9> ;
+    wdt:P2283 <http://xomics/#data_file/7208d2d4-358e-4397-b3e7-db96c26eca1e>,
+        <http://xomics/#protocol/eb031dca-59c1-4866-806c-48480a92705c> .
+
+<https://fdp.cmbi.umcn.nl/#process/3832d914-f3b7-49d5-afb9-70483ca1f217> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/2227c1f3-ed2d-42f7-8a85-af4844858f2d> ;
+    wdt:P156 <http://xomics/#process/93c2683a-321c-40bd-b1de-536ee5176e74> ;
+    wdt:P2283 <http://xomics/#material/96d05d17-d9ea-46b6-9b11-20b683c77f62>,
+        <http://xomics/#protocol/bb980822-c380-4f1b-86ed-629cbc10b51b> .
+
+<https://fdp.cmbi.umcn.nl/#process/4289515b-e48c-47bf-a622-81a9a1300542> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#material/4536bc49-bf96-486b-a9ca-d1b7ba2d272d> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P156 <http://xomics/#process/27c2e0ce-a430-40c2-a345-6d39900956dd> ;
+    wdt:P2283 [ ],
+        <http://xomics/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4>,
+        <http://xomics/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493> .
+
+<https://fdp.cmbi.umcn.nl/#process/5f891786-2302-47e7-8318-3dc0fe335104> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/c2a7405a-d805-4920-84fc-3fecebd360e3> ;
+    wdt:P156 <http://xomics/#process/b7cd2afe-e6fa-485e-b6fd-322f80b4f488> ;
+    wdt:P2283 [ ],
+        <http://xomics/#protocol/610c1f6e-c95f-47d4-8f34-82065e581a74> .
+
+<https://fdp.cmbi.umcn.nl/#process/6b72619f-1397-4753-bae9-873574afc721> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/cd50b34a-3168-41f7-86fd-f2a59a799fde> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/e97b819f-8f9f-4381-af29-e31fa0b38986> ;
+    wdt:P156 <http://xomics/#process/c14323c6-5205-4ed2-88d5-2c7b3bda2358> ;
+    wdt:P2283 <http://xomics/#protocol/042f54a0-2a29-4470-b80d-42270a074591> .
+
+<https://fdp.cmbi.umcn.nl/#process/7f87f1a9-c534-461f-be20-b3699cd0e602> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/facf9dc3-1278-4fea-abd9-d2ded5fed77e> ;
+    wdt:P156 <http://xomics/#process/a9648c90-1f5a-4f00-bca6-60873a43195e> ;
+    wdt:P2283 <http://xomics/#material/dd84bd14-eff0-4201-8684-a30b3655b8ce>,
+        <http://xomics/#protocol/bb980822-c380-4f1b-86ed-629cbc10b51b> .
+
+<https://fdp.cmbi.umcn.nl/#process/93c2683a-321c-40bd-b1de-536ee5176e74> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/3832d914-f3b7-49d5-afb9-70483ca1f217> ;
+    wdt:P156 <http://xomics/#process/225976e1-e369-47e3-821c-ceddccd14d4b> ;
+    wdt:P2283 [ ],
+        <http://xomics/#protocol/610c1f6e-c95f-47d4-8f34-82065e581a74> .
+
+<https://fdp.cmbi.umcn.nl/#process/9ef4f185-683e-4c22-b7e6-224f13ba17a2> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/9e7369f3-62cd-4db1-a895-9f3f40dcf861> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/a9648c90-1f5a-4f00-bca6-60873a43195e> ;
+    wdt:P156 <http://xomics/#process/a9d632c6-fcd7-469c-93a6-66202d3b91e7> ;
+    wdt:P2283 [ ],
+        <http://xomics/#protocol/ac70055c-8b68-491c-98cd-2faa45fbee3e> .
+
+<https://fdp.cmbi.umcn.nl/#process/a9648c90-1f5a-4f00-bca6-60873a43195e> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/7f87f1a9-c534-461f-be20-b3699cd0e602> ;
+    wdt:P156 <http://xomics/#process/9ef4f185-683e-4c22-b7e6-224f13ba17a2> ;
+    wdt:P2283 [ ],
+        [ ],
+        [ ],
+        <http://xomics/#protocol/f7e8e8a6-6326-4b5d-bc4d-0042ea7302b7> .
+
+<https://fdp.cmbi.umcn.nl/#process/a9d632c6-fcd7-469c-93a6-66202d3b91e7> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/9ef4f185-683e-4c22-b7e6-224f13ba17a2> ;
+    wdt:P2283 <http://xomics/#data_file/9e7369f3-62cd-4db1-a895-9f3f40dcf861>,
+        <http://xomics/#protocol/1be44a0d-9319-46eb-a86e-6d41487e0e2b> .
+
+<https://fdp.cmbi.umcn.nl/#process/b7cd2afe-e6fa-485e-b6fd-322f80b4f488> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/7208d2d4-358e-4397-b3e7-db96c26eca1e> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 "mass_spectrometry_INCOV001-AC"^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/5f891786-2302-47e7-8318-3dc0fe335104> ;
+    wdt:P156 <http://xomics/#process/c67987a6-333f-47bf-a8ab-7c9a67349d6b> ;
+    wdt:P2283 [ ],
+        [ ],
+        [ ],
+        <http://xomics/#protocol/bf972754-f025-432f-a9d0-1518bc9c61f5> .
+
+<https://fdp.cmbi.umcn.nl/#process/c14323c6-5205-4ed2-88d5-2c7b3bda2358> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/cd50b34a-3168-41f7-86fd-f2a59a799fde> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/6b72619f-1397-4753-bae9-873574afc721> ;
+    wdt:P156 <http://xomics/#process/f1cb0352-52d0-4e93-b255-f646c2a34ff6> ;
+    wdt:P2283 <http://xomics/#protocol/79c61e6d-dee6-4f61-9d3b-a1038e9f93c3> .
+
+<https://fdp.cmbi.umcn.nl/#process/c2a7405a-d805-4920-84fc-3fecebd360e3> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/09d006b0-326f-46a0-b207-f63e03654750> ;
+    wdt:P156 <http://xomics/#process/5f891786-2302-47e7-8318-3dc0fe335104> ;
+    wdt:P2283 <http://xomics/#material/78248314-54ff-41d1-b7be-aa1fd8849db7>,
+        <http://xomics/#protocol/bb980822-c380-4f1b-86ed-629cbc10b51b> .
+
+<https://fdp.cmbi.umcn.nl/#process/c67987a6-333f-47bf-a8ab-7c9a67349d6b> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 "metabolite_identification_INCOV001-AC"^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/b7cd2afe-e6fa-485e-b6fd-322f80b4f488> ;
+    wdt:P156 <http://xomics/#process/e0a84328-e8b7-4bdd-bc86-c6c67e7b3fc9> ;
+    wdt:P2283 <http://xomics/#data_file/7208d2d4-358e-4397-b3e7-db96c26eca1e>,
+        <http://xomics/#protocol/eb031dca-59c1-4866-806c-48480a92705c> .
+
+<https://fdp.cmbi.umcn.nl/#process/e0a84328-e8b7-4bdd-bc86-c6c67e7b3fc9> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/48f05ff9-20d9-4c3f-b252-b5890c96c846> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/34871c95-4dbe-4ad3-81c2-a0b4084c4f8c> ;
+    wdt:P2283 <http://xomics/#protocol/a03e772c-3958-46eb-aced-01e8273cd7f5> .
+
+<https://fdp.cmbi.umcn.nl/#process/e97b819f-8f9f-4381-af29-e31fa0b38986> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#data_file/cd50b34a-3168-41f7-86fd-f2a59a799fde> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/13a13770-a565-42cc-a133-5de2e439dfae> ;
+    wdt:P156 <http://xomics/#process/6b72619f-1397-4753-bae9-873574afc721> ;
+    wdt:P2283 <http://xomics/#material/ebc650eb-d2e6-42ca-b007-73d2b06edaba>,
+        <http://xomics/#protocol/a5c33458-29db-47d1-b47e-85ad0d7be0f3> .
+
+<https://fdp.cmbi.umcn.nl/#process/f1cb0352-52d0-4e93-b255-f646c2a34ff6> a wdt:Q3249551 ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P155 <http://xomics/#process/c14323c6-5205-4ed2-88d5-2c7b3bda2358> ;
+    wdt:P2283 <http://xomics/#protocol/1be44a0d-9319-46eb-a86e-6d41487e0e2b> .
+
+<https://fdp.cmbi.umcn.nl/#process/facf9dc3-1278-4fea-abd9-d2ded5fed77e> a wdt:Q3249551 ;
+    wdt:P1056 <http://xomics/#material/dd84bd14-eff0-4201-8684-a30b3655b8ce> ;
+    wdt:P137 ""^^wdt:Q215627 ;
+    wdt:P1390 ""^^xsd:date ;
+    wdt:P1448 ""^^wdt:Q82799 ;
+    wdt:P156 <http://xomics/#process/7f87f1a9-c534-461f-be20-b3699cd0e602> ;
+    wdt:P2283 [ ],
+        <http://xomics/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4>,
+        <http://xomics/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/042f54a0-2a29-4470-b80d-42270a074591> a wdt:Q41689629 ;
+    wdt:P1448 "Single cell RNA-seq data qc"^^wdt:Q783521 ;
+    wdt:P1552 "Droplet-based sequencing data were aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 3.0.0, 10x Genomics) against the GRCh38 human reference genome. Cells from each demultiplexed sample were first filtered for cells that expressed a minimum of 200 genes, then they were filtered based on three metrics: 1) the total number of unique molecular identifiers (UMI) counts per cell (library size) must be less than 10000; 2) the number of detected genes per cell must be less than 2500; and 3) the proportion of mitochondrial gene counts (UMIs from mitochondrial genes / total UMIs) must be less than 10%. Doublets were either simultaneously identified in sample demultiplexing or identified using scrublet (Wolock et al., 2019) and were removed prior to the aforementioned filtering. After QC metric filtering, a total of 559,583 cells were retained for downstream analysis. Scanpy (Wolf et al., 2018) was used to normalize cells via CPM normalization (UMI total count of each cell was set to 106) and log1p transformation (natural log of CPM plus one)."^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/5224832b-9b09-46d6-9892-0da312e3a914> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/eb976d9e-d065-419e-95de-ad2a3df6bcc4> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/12b0abe0-2e95-44ea-948e-ec3fd492741f> a wdt:Q41689629 ;
+    wdt:P1448 "sample_collection_protocol"^^wdt:Q783521 ;
+    wdt:P1552 "WOS for time of blood draw were determined by manual expert review. WOS for Figure S1A were automatically generated from data extracted from the electronic health record for hospitalized patients, and plotted for 6-hour time intervals based on end-interval grade. Automated results were compared against manual expert review for 15% of study subjects. The follng data were collected from the subjectâ€™s electronic health record (EHR): complete blood count (CBC) with differential, comprehensive metabolic panel, APTT, D-dimer, fibrinogen, prothrombin time, thrombin time ,and troponin I. Lab data were extracted from the nearest time point to each blood draw, if available within a window Â± two days. First blood draw (n = 76), second blood draw (n = 54). Blood draws were classified as WOS = 3-4 (n = 83) and WOS = 5-7 (n = 47). We used an unpaired Wilcoxon-test to determine the statistical difference between WOS = 3-4 and WOS = 5-7, and P values were FDR adjusted. Spearman correlation coefficient was calculated using R package â€˜corrplot v0.84â€™ to observe the associations between EHR labs and WOS disease severity, and the correlation significance was reported as FDR adjusted P values."^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/109aeabc-b49a-4821-ba6a-c6ab8d4f77f9> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/f96395c5-384b-4a0f-92ec-da528157b239> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/1be44a0d-9319-46eb-a86e-6d41487e0e2b> a wdt:Q41689629 ;
+    wdt:P1448 "feature annotation"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/ee351a07-bfcb-4bff-9909-17a2eeead4d5> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/a80dada2-7e58-45b7-b407-740f0e468c6c> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/610c1f6e-c95f-47d4-8f34-82065e581a74> a wdt:Q41689629 ;
+    wdt:P1448 "Chromatography"^^wdt:Q783521 ;
+    wdt:P1552 "Metabolon (Morrisville, NC, USA) conducted the metabolomics assays for all participant plasma samples used in this study. Data were generated with the Global Metabolomics platform via ultra-high-performance liquid chromatography/tandem accurate mass spectrometry. 100â€‰microLiter of plasma was aliquoted and transported on dry ice to Metabolon Inc. for analysis. Sample handling and quality control were performed by Metabolon in their CLIA-certified laboratory. Mass spectrometry was performed using Metabolonâ€™s ultra-high-performance liquid chromatography/tandem mass spectrometry (UHPLC/MS/MS) Global Platform, which consisting of four independent UPLCâ€“MS/MS instruments, each with a Waters ACQUITY ultra-performance liquid chromatography (UPLC) and Thermo Scientific Q-Exactive high resolution/accurate mass spectrometer interfaced with a heated electrospray ionization (HESI-II) source and Orbitrap mass analyzer at 35,000 mass resolution."^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/34926f2c-d3b9-4510-b71c-3ea8bfd624e9>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/4745b29b-6d6f-4743-8218-99b05539b572>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/49b1e627-44a5-4f0c-8660-3ff3fba287e3> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/3f10744a-d2c0-4bc7-9072-a3ebed029c67> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/79c61e6d-dee6-4f61-9d3b-a1038e9f93c3> a wdt:Q41689629 ;
+    wdt:P1448 "Pseudo-bulk aggregation"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/cbb5e785-4d7f-4492-8622-fbe7b293de85> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/48f0daa8-766d-4fbd-9ce3-e186911d7ca5> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/a03e772c-3958-46eb-aced-01e8273cd7f5> a wdt:Q41689629 ;
+    wdt:P1448 "metabolite identification"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/e48070d9-9618-4c2b-b8a0-3f0c5542f70f> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/c684a471-de27-4bae-b457-524fcfc8284a> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/a1aec366-0c34-468f-9158-c726dc8fcd7b> a wdt:Q41689629 ;
+    wdt:P1448 "PBMC preparation"^^wdt:Q783521 ;
+    wdt:P1552 "Chromium Single Cell Kits (10x Genomics) were utilized to analyze the transcriptomic, surface protein levels and, TCR sequences simultaneously from the same cell. Experiments were performed according to the manufacturerâ€™s instructions. Briefly, cryopreserved PBMCs were thawed and 1X red blood cell lysis solution (BioLegend) was used to lyse any remaining red blood cells in the PBMC samples. Cells were stained with a panel of TotalSeq-C human antibodies that includes hashtag multiplexing antibodies (BioLegend) detailed in Table S1.8 according to the manufacturerâ€™s protocol."^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/1b4cb80e-34a8-4186-a4ce-736693d0a162> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/5ac2850c-6646-43de-a7d2-6c3c59fdf328> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/a5c33458-29db-47d1-b47e-85ad0d7be0f3> a wdt:Q41689629 ;
+    wdt:P1448 "Single cell sequencing"^^wdt:Q783521 ;
+    wdt:P1552 "Stained cells were then loaded onto a Chromium Next GEM chip G. Cells were lysed for reverse transcription and complementary DNA (cDNA) amplification in the Chromium Controller (10X Genomics). The polyadenylated transcripts were reverse-transcribed inside each gel bead-in-emulsion afterward. Full-length cDNA along with cell barcode identifiers were PCR-amplified and sequencing libraries were prepared and normalized. The constructed library was sequenced on the Novaseq platform (Illumina)."^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/68613188-92ce-4fa4-8239-64a07db580b5> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/1357ad07-d665-4af8-b270-63d40d3aeba4> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/ac70055c-8b68-491c-98cd-2faa45fbee3e> a wdt:Q41689629 ;
+    wdt:P1448 "real-time PCR"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/a55e9f0b-e856-4f92-b5b6-f0ae21f2dff2> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/45d44580-4ae7-4a4b-b666-d69925b21769> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/bb980822-c380-4f1b-86ed-629cbc10b51b> a wdt:Q41689629 ;
+    wdt:P1448 "Labelling samples"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/e2f68f63-b220-4fff-ba17-e4c60b83817a> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/74914e3e-bf5c-427b-938f-c83132d34d4e> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/bf972754-f025-432f-a9d0-1518bc9c61f5> a wdt:Q41689629 ;
+    wdt:P1448 "Mass spectrometry"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/158c4f20-e282-4487-b458-0c2966ef7a40>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/6527989d-e5ee-4640-bb1a-c7b9c004c471>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/7f5ed0b0-3935-43ee-ab95-ded480fc1286>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/8b5d3fa7-e634-4217-adba-40ae8d621079>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/abc34700-8a6a-46c0-8e37-b9d99947a45b>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/f222f472-752a-4e62-b746-e018899882d7> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/dd8dc60a-1891-40e7-a29f-0083a4be5a18> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4> a wdt:Q41689629 ;
+    wdt:P1448 "Extraction"^^wdt:Q783521 ;
+    wdt:P1552 "Plasma and PBMC isolation were conducted with standard protocols from Bloodworks Northwest (Seattle, WA). Patient blood was collected in BD Vacutainer (EDTA) tubes (Becton, Dickinson and Company, Franklin Lakes, NJ). Plasma fractions were collected after centrifuged at 800 x g at 4Â°C for 10 min, aliquoted, and stored until use at âˆ’80Â°C. The rest of the blood was diluted with PBS (pH7.2) to 2X of the original volume and layered over 15 mL Ficoll (GE Healthcare, Waukesha, WI) in SepMate-50 tubes (StemCell, Vancouver, BC). After centrifuged at 800 x g for 15 min at room temperature, the PBMC layer (did not include granulocytes (such as neutrophils)) was poured into a 50 mL conical tube. The cells were washed twice with autoMACS Rinsing Solution (Miltenyi Biotec, Auburn, CA) and centrifuge at 250 x g for 10 min, at RT. PBMC pellets were gently resuspended in 5 mL Rinsing Solution and a 5 microLiter aliquot was diluted 1:10 v/v for cell counting. Cells in 18 microLiter of diluted samples were first mixed with 2 microLiter of Acridine Orange / Propidium Iodide Stain (Logos Biosystems, Annandale, VA), 10 microLiter was then loaded to a PhotonSlide (Logos Biosystems) and counted in a LUNA FL Dual Fluorescence cell counter (Logos Biosystems). Cryopreservation freeze media CryoStor CS-10 (Biolife Solutions, Bothell, WA) was slowly added to make a concentration of 2.5 million PBMC/ml. Cells were aliquoted in 2.0 mL Cryotube vials (ThermoFisher, Waltham, MA) and frozen in CoolCell LX Cell Freezing Container (Corning, Corning, NY) at âˆ’80Â°C for at least 2 hours before stored in liquid nitrogen until use."^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/56b7bbf7-6b9c-495d-91d5-6ec56fe3b3ac>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/b17a94b5-7ff2-4c02-84b2-8aa761b44ead> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/4e1964e5-3919-4e6d-bb43-49dc6c13fc9a> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/eb031dca-59c1-4866-806c-48480a92705c> a wdt:Q41689629 ;
+    wdt:P1448 "Data transformation"^^wdt:Q783521 ;
+    wdt:P1552 "Raw metabolomics data were median scaled within each batch such that the median value for each metabolite was one"^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/8f86bb7d-a66d-493b-9a12-2927c36b5e07> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/97943f87-7c29-4d30-b1c6-826a9efc7c90> .
+
+<https://fdp.cmbi.umcn.nl/#protocol/f7e8e8a6-6326-4b5d-bc4d-0042ea7302b7> a wdt:Q41689629 ;
+    wdt:P1448 "Proximity extension assay"^^wdt:Q783521 ;
+    wdt:P1552 ""^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol_parameter/3a03bcc9-860f-4d63-be70-c39036e34d07>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/e43965af-5b72-4880-8fc2-4eb44a0167a3>,
+        <https://fdp.cmbi.umcn.nl/#protocol_parameter/e65f9cea-4788-4dbe-b0e5-ee906c19d292> ;
+    wdt:P2699 ""^^wdt:Q42253 ;
+    wdt:P348 ""^^wdt:Q3331189 ;
+    wdt:P7793 <https://fdp.cmbi.umcn.nl/#ontology_annotation/da49a373-9bac-4739-889a-7503c7e48684> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/109aeabc-b49a-4821-ba6a-c6ab8d4f77f9> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/78647620-3796-4732-9d66-3d7563a7aab8> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/158c4f20-e282-4487-b458-0c2966ef7a40> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/dcb3fe26-0f7f-4394-8463-6665321ec325> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/1b4cb80e-34a8-4186-a4ce-736693d0a162> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/f4288ecb-32b1-46cd-8fb4-bdb75bb7d11c> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/34926f2c-d3b9-4510-b71c-3ea8bfd624e9> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/7f34833a-c83a-492b-8e2f-e165c37ec298> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/3a03bcc9-860f-4d63-be70-c39036e34d07> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/e5995617-30ac-46e7-bc65-a1d54c9e005a> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/4745b29b-6d6f-4743-8218-99b05539b572> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/197671e7-ab38-4893-89e7-2cec3f6a216d> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/49b1e627-44a5-4f0c-8660-3ff3fba287e3> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/8e8ccde2-b315-419d-a577-5b6adce85dcf> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/5224832b-9b09-46d6-9892-0da312e3a914> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/c1ecd378-8971-4d7c-bdd5-938a68c729b4> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/56b7bbf7-6b9c-495d-91d5-6ec56fe3b3ac> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/0fb87e96-7da5-425a-99f8-88bb232fbf95> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/6527989d-e5ee-4640-bb1a-c7b9c004c471> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/dd7a681d-53af-4840-8157-82aa80069e43> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/68613188-92ce-4fa4-8239-64a07db580b5> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/9648fba5-3318-44e3-bfa4-aa46801f3f47> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/7f5ed0b0-3935-43ee-ab95-ded480fc1286> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/daa365e3-d1ef-4e15-8876-f2bbd8acada3> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/8b5d3fa7-e634-4217-adba-40ae8d621079> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/9a01faba-ff98-4ec0-aef2-13a3f91683ea> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/8f86bb7d-a66d-493b-9a12-2927c36b5e07> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/510a06db-c16c-4e21-9ffa-37fd6a0b57a2> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/a55e9f0b-e856-4f92-b5b6-f0ae21f2dff2> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/6b420d5c-4134-4252-91fb-f16c07757ff7> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/abc34700-8a6a-46c0-8e37-b9d99947a45b> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/3526ad76-ba98-4e67-8d4e-f85f7cb3f08d> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/b17a94b5-7ff2-4c02-84b2-8aa761b44ead> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/cb5dce5d-24e9-4e89-8bdf-1360acc7b1d9> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/cbb5e785-4d7f-4492-8622-fbe7b293de85> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/2dc097ff-a97d-4ca1-b51a-203e8f01e321> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/e2f68f63-b220-4fff-ba17-e4c60b83817a> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/24cc71c3-ba57-49f9-8047-446529dc3637> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/e43965af-5b72-4880-8fc2-4eb44a0167a3> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/7f2061bc-5569-4fad-bcda-da04dc7d4683> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/e48070d9-9618-4c2b-b8a0-3f0c5542f70f> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/7f91ea98-972b-40da-a562-1bc6bd5304fb> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/e65f9cea-4788-4dbe-b0e5-ee906c19d292> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/d4b23512-0b68-4c05-a008-ae311642e795> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/ee351a07-bfcb-4bff-9909-17a2eeead4d5> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/9a4ae4ec-5f5d-4545-a39b-973281434b1d> .
+
+<https://fdp.cmbi.umcn.nl/#protocol_parameter/f222f472-752a-4e62-b746-e018899882d7> a wdt:Q7247312 ;
+    wdt:P1448 <https://fdp.cmbi.umcn.nl/#ontology_annotation/13450fa1-5d4e-4160-ac76-c93735ae3e2e> .
+
+<https://fdp.cmbi.umcn.nl/#publication/842b3aff-4131-4250-baf6-fcd9f84f92ea> a wdt:Q591041 ;
+    wdt:Q2082879 ""@en ;
+    wdt:Q25670 "https://doi.org/10.31219/osf.io/9mz27"@en ;
+    wdt:Q57971547 "Barend Mons, Peter-Bram 't Hoen, Dirkjan Kuijpers, Thomas Hankemeier, Gianpiero Pescarmona"@en ;
+    wdt:Q77422468 <http://xomics/#ontology_annotation/f764ee36-36f2-44d5-b1a3-88f4235c716a> ;
+    wdt:Q82799 "Mild as well as severe disease caused by COVID-19 might be part of the same problem: Machine-assisted analysis of congruent clinical observations and the underlying molecular mechanisms in order to rationalise drug repurposing"@en .
+
+<https://fdp.cmbi.umcn.nl/#publication/9edc8ac9-ed30-466b-9c1f-790c7548605b> a wdt:Q591041 ;
+    wdt:Q2082879 "33171100"@en ;
+    wdt:Q25670 "https://doi.org/10.1016/j.cell.2020.10.037"@en ;
+    wdt:Q57971547 "Su Y, Chen D, Yuan D, Lausted C, Choi J, Dai CL, Voillet V, Duvvuri VR, Scherler K, Troisch P, Baloni P, Qin G, Smith B, Kornilov SA, Rostomily C, Xu A, Li J, Dong S, Rothchild A, Zhou J, Murray K, Edmark R, Hong S, Heath JE, Earls J, Zhang R, Xie J, Li S, Roper R, Jones L, Zhou Y, Rowen L, Liu R, Mackay S, O'Mahony DS, Dale CR, Wallick JA, Algren HA, Zager MA; ISB-Swedish COVID19 Biobanking Unit, Wei W, Price ND, Huang S, Subramanian N, Wang K, Magis AT, Hadlock JJ, Hood L, Aderem A, Bluestone JA, Lanier LL, Greenberg PD, Gottardo R, Davis MM, Goldman JD, Heath JR"@en ;
+    wdt:Q77422468 <http://xomics/#ontology_annotation/9406eab3-11a8-46ed-a7af-7b1f6a1a1958> ;
+    wdt:Q82799 "Multi-Omics Resolves a Sharp Disease-State Shift between Mild and Moderate COVID-19"@en .
+
+<https://fdp.cmbi.umcn.nl/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493> a wdt:Q53617407 ;
+    wdt:P1448 "INCOV001-AC"^^wdt:Q82799 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#characteristic/6040be4d-09fe-467d-bcfa-db05e7a44d0d> ;
+    wdt:P9072 <http://xomics/#source/30bfcd8f-b18d-4d37-a82d-a05f8a86f190> .
+
+<https://fdp.cmbi.umcn.nl/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047> a wdt:Q53617407 ;
+    wdt:P1448 "INCOV001-BL"^^wdt:Q82799 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#characteristic/5aa46e75-2544-4891-8035-1638afd4424a> ;
+    wdt:P9072 <http://xomics/#source/30bfcd8f-b18d-4d37-a82d-a05f8a86f190> .
+
+<https://fdp.cmbi.umcn.nl/#source/30bfcd8f-b18d-4d37-a82d-a05f8a86f190> a wdt:Q53617407 ;
+    wdt:P1448 "INCOV001"^^wdt:Q82799 ;
+    wdt:P1552 <https://fdp.cmbi.umcn.nl/#characteristic/164253eb-78f3-43e3-b93e-4e473f7d18a2>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/16f3936c-59fc-4f85-89ba-4c6b9c9d2bd7>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/17a01a25-fdef-4605-aaec-61eb3660e074>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/3cd7b8a9-9393-4309-99ac-d264e42e77ec>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/55509586-bb81-434f-8c6a-57ec378c4402>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/5890eb6b-a81b-474d-a2ef-c581bb8e95fa>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/6c88be71-70de-43d8-9e65-ac6042649644>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/74f83ba5-dc79-493e-b9d4-1bb50266bd5e>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/7b84ac6b-b255-4717-9c8b-ad2c7853dd14>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/7d8e9646-6086-44fc-8d5f-084da3e3972f>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/b5ece531-2b7c-40e5-ade3-00f0d5bea7b0>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/ca1194c3-1ac0-4e90-af62-f04669e4d0be>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/d7184bfe-0716-4c3d-a844-6444449484c4>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/e8465b1a-b7ff-4f9e-87b2-9f2613de9e81>,
+        <https://fdp.cmbi.umcn.nl/#characteristic/f813c4d9-a1da-452c-8934-e1279bb0f333> .
+
+<https://fdp.cmbi.umcn.nl/#study/b8e3c5f5-1bc2-4798-829c-a9a387b6bf90> a wdt:Q101965 ;
+    ns2:nest [ wdt:Q53617407 <https://fdp.cmbi.umcn.nl/#sample/154b1fbc-c200-423f-bcb7-b0e0ada90493>,
+                <https://fdp.cmbi.umcn.nl/#sample/b6863f23-805b-42ab-b2d1-bda4ed5a2047>,
+                <https://fdp.cmbi.umcn.nl/#source/30bfcd8f-b18d-4d37-a82d-a05f8a86f190> ] ;
+    wdt:P1476 "Multi-Omics Resolves a Sharp Disease-State Shift between Mild and Moderate COVID-19"^^wdt:Q783521 ;
+    wdt:P1552 "Multi-omics and clinical of patients with mild, moderate and severe corona infection"^^wdt:Q1200750 ;
+    wdt:P2283 <https://fdp.cmbi.umcn.nl/#protocol/042f54a0-2a29-4470-b80d-42270a074591>,
+        <https://fdp.cmbi.umcn.nl/#protocol/12b0abe0-2e95-44ea-948e-ec3fd492741f>,
+        <https://fdp.cmbi.umcn.nl/#protocol/1be44a0d-9319-46eb-a86e-6d41487e0e2b>,
+        <https://fdp.cmbi.umcn.nl/#protocol/610c1f6e-c95f-47d4-8f34-82065e581a74>,
+        <https://fdp.cmbi.umcn.nl/#protocol/79c61e6d-dee6-4f61-9d3b-a1038e9f93c3>,
+        <https://fdp.cmbi.umcn.nl/#protocol/a03e772c-3958-46eb-aced-01e8273cd7f5>,
+        <https://fdp.cmbi.umcn.nl/#protocol/a1aec366-0c34-468f-9158-c726dc8fcd7b>,
+        <https://fdp.cmbi.umcn.nl/#protocol/a5c33458-29db-47d1-b47e-85ad0d7be0f3>,
+        <https://fdp.cmbi.umcn.nl/#protocol/ac70055c-8b68-491c-98cd-2faa45fbee3e>,
+        <https://fdp.cmbi.umcn.nl/#protocol/bb980822-c380-4f1b-86ed-629cbc10b51b>,
+        <https://fdp.cmbi.umcn.nl/#protocol/bf972754-f025-432f-a9d0-1518bc9c61f5>,
+        <https://fdp.cmbi.umcn.nl/#protocol/dd8d246d-55f9-4434-a0b1-7ac08e54bfd4>,
+        <https://fdp.cmbi.umcn.nl/#protocol/eb031dca-59c1-4866-806c-48480a92705c>,
+        <https://fdp.cmbi.umcn.nl/#protocol/f7e8e8a6-6326-4b5d-bc4d-0042ea7302b7> ;
+    wdt:P50 <https://fdp.cmbi.umcn.nl/#person/59f1221b-1c32-44ba-b8ae-575fb20597a6>,
+        <https://fdp.cmbi.umcn.nl/#person/ef4666c2-9fd6-4337-a825-1cc462755d63> ;
+    wdt:P527 <https://fdp.cmbi.umcn.nl/#assay/151e76eb-8be0-4ec4-807e-6b7d3f5c5e1a>,
+        <https://fdp.cmbi.umcn.nl/#assay/17457e82-b6c3-4d4c-be77-e613a7dfdbaf>,
+        <https://fdp.cmbi.umcn.nl/#assay/2e4febcf-bc5f-4035-8d27-2d2abff63470>,
+        <https://fdp.cmbi.umcn.nl/#process/101d8330-6555-4f65-822a-71537a49debf>,
+        <https://fdp.cmbi.umcn.nl/#publication/9edc8ac9-ed30-466b-9c1f-790c7548605b> ;
+    wdt:P5422 <https://fdp.cmbi.umcn.nl/#ontology_annotation/3c9e82bf-c81a-4988-b692-d4b26b85c085>,
+        <https://fdp.cmbi.umcn.nl/#ontology_annotation/5063b216-f76c-4c98-a67a-417340531c18> ;
+    wdt:P577 ""^^xsd:date ;
+    wdt:P585 ""^^xsd:date ;
+    wdt:P632 <https://fdp.cmbi.umcn.nl/#characteristic_category/0783b437-a54b-4b8b-a925-34e3c3198535>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/24dd6487-76d9-40f1-b733-339ba6ac266d>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/298a20df-1366-4ad5-bd61-ebdc614fca3c>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/4cc49c5c-efb0-4ec1-8077-540fff923cde>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/50f71d24-f5d5-4b60-b2ff-7ce812968650>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/61c8218d-9ab3-40ef-9d17-b165fa0afc43>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/6e900e69-20fa-4c7f-b6be-f66b816985af>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/74049c22-47bf-4b56-9a09-12387cee7439>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/91dde773-5ccc-452d-b015-7318623133d8>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/948473af-deca-4d90-85e3-eb7297cbe0d6>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/94aba55b-2e09-42e5-bcdf-890bb272802a>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/9a3b5d8c-5697-4c12-a0c0-4c820958ec01>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/bba2336f-359f-4d36-b8ff-3282eb69c74a>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/c6234dd2-1a9f-45a8-aace-2d566bad21db>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/e161452b-1adf-40e0-b013-d902319f4c2b>,
+        <https://fdp.cmbi.umcn.nl/#characteristic_category/ffaa5d50-c042-47be-9b90-198b86d78a3e> ;
+    wdt:P7793 "s_study.txt"^^wdt:Q1144928 ;
+    wdt:Q853614 "https://doi.org/10.1016/j.cell.2020.10.037"@en .
+

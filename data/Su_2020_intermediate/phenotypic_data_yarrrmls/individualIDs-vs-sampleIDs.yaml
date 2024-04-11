@@ -11,13 +11,13 @@ mappings:
   sample:
     sources:
       - ['individualIDs-vs-sampleIDs.csv~csv']
-    s: ex:$(SampleID)
+    s: ex:$(Sample ID)
     po:
       - [a, obo:NCIT_C43412] # a sample
-      - [sio:SIO_001403, ex:$(StudySubjectID)] # is associated with
+      - [sio:SIO_001403, ex:$(Study Subject ID)] # is associated with
   individual:
     sources:
-      - ['individuals-vs-samples.csv~csv']
-    s: ex:$(StudySubjectID)
+      - ['individualIDs-vs-sampleIDs.csv~csv']
+    s: ex:$(Study Subject ID)
     po:
       - [a, sio:SIO_000498] # a person

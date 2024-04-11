@@ -6,6 +6,7 @@ from os import path
 import json
 
 from rdflib import Graph, Namespace, URIRef
+import pprint
 
 from isatools import isatab
 from isatools.model import set_context
@@ -31,6 +32,13 @@ def create_rdf_graph(investigation):
     #set_context(vocab='sdo', all_in_one=False, local=False)
 
     ld = investigation.to_dict(ld=True)
+    
+    print()
+    print("---------------------------------")
+    print("ld")
+    print(ld)
+    print("---------------------------------")
+    print()
     # Creating the namespace
     WD = Namespace("http://www.wikidata.org/entity/")
     ISA = Namespace('https://isa.org/')
@@ -38,13 +46,24 @@ def create_rdf_graph(investigation):
 
 
     ld_string = json.dumps(ld) # Get a string representation of the ld variable
+    print()
+    print("---------------------------------")
+    print("ld_string")
+    print(ld_string)
+    print("---------------------------------")
+    print()
+    
     graph = Graph() # Create an empty graph
-    graph.parse(data=ld_string, format='json-ld') # Load the data into the graph
-
+    
+    graph.parse(data=ld_string, format='json-ld',publicID="http://xomics") # Load the data into the graph
+    for stmt in graph:
+        pprint.pprint(stmt)
     # Finally, bind the namespaces to the graph
     graph.bind('wdt', WD)
     graph.bind('isa', ISA)
     graph.bind('obo', OBO)
+    #for stmt in graph:
+    #    pprint.pprint(stmt)
     return graph
 
 def re_base_uri():
@@ -70,7 +89,74 @@ def re_base_uri():
 
 def main(file):
     investigation = load_isa(file)
+    print()
+    print("---------------------------------")
+    print("investigation")
+    print(investigation)
+    print("---------------------------------")
+    print()
+    
+    print()
+    print("---------------------------------")
+    print("Study")
+    print(investigation.studies[0])
+    print("---------------------------------")
+    print()
+    
+    print()
+    print("---------------------------------")
+    print("Contacts")
+    print(investigation.studies[0].contacts[0])
+    print(investigation.studies[0].contacts[1])
+    print("---------------------------------")
+    print()
+    print()
+    print("---------------------------------")
+    print("protocols")
+    print(investigation.studies[0].protocols[0])
+    print("parameters")
+    print(investigation.studies[0].protocols[0].parameters[0])
+    print(investigation.studies[0].protocols[1])
+    print("parameters")
+    print(investigation.studies[0].protocols[1].parameters[0])
+    print(investigation.studies[0].protocols[1].parameters[1])
+    print(investigation.studies[0].protocols[2])
+    print(investigation.studies[0].protocols[3])
+    print(investigation.studies[0].protocols[4])
+    print(investigation.studies[0].protocols[5])
+    print(investigation.studies[0].protocols[6])
+    print(investigation.studies[0].protocols[7])
+    print(investigation.studies[0].protocols[8])
+    print(investigation.studies[0].protocols[9])
+    print(investigation.studies[0].protocols[10])
+    print(investigation.studies[0].protocols[11])
+    print(investigation.studies[0].protocols[12])
+    print(investigation.studies[0].protocols[13])
+    print("---------------------------------")
+    print()
+    print()
+    print("---------------------------------")
+    print("assays")
+    print(investigation.studies[0].assays[0])
+    print("assays-data files")
+    print(investigation.studies[0].assays[0].data_files[0])
+    print(investigation.studies[0].assays[0].data_files[1])    
+    print(investigation.studies[0].assays[1])
+    print(investigation.studies[0].assays[2])
+    print("---------------------------------")
+    print()
+
+    
+    
+    print(investigation.studies[0].assays[1])
+    print(investigation.studies[0].assays[2])
+    print("---------------------------------")
+    print()
+    
+    
     graph = create_rdf_graph(investigation)
+    #for stmt in graph:
+    #    pprint.pprint(stmt)
     graph.serialize(destination='../../data/Su_2020_FAIR/isa-14.ttl', format='turtle')
     #re_base_uri()
     return
