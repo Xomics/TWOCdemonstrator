@@ -1,7 +1,0 @@
-prefix obo: <http://purl.obolibrary.org/obo/>
-prefix eda: <http://edamontology.org/data_1188>
-
-
-<http://example.com/INCOV070> eda:data_1188 <https://doi.org/10.1016/j.cell.2020.10.037>.
-<http://example.com/INCOV070> obo:MONDO_0100096 "true"^^xsd:boolean
-<http://example.com/INCOV070> obo:NCIT_C166244 "ICU"^^xsd:string.
