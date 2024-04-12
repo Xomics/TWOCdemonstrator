@@ -89,6 +89,7 @@ def re_base_uri():
 
 def main(file):
     investigation = load_isa(file)
+    '''
     print()
     print("---------------------------------")
     print("investigation")
@@ -152,7 +153,7 @@ def main(file):
     print(investigation.studies[0].assays[2])
     print("---------------------------------")
     print()
-    
+    '''
     
     graph = create_rdf_graph(investigation)
     #for stmt in graph:
@@ -164,5 +165,7 @@ def main(file):
 # main
 if __name__ == '__main__':
     isajson_file = '../../data/Su_2020_FAIR/isa.json'
-    isa_tab_file = '../../data/Su_2020_FAIR/i_investigation.txt'
+    #isa_tab_file = '../../data/Su_2020_FAIR/i_investigation.txt'
+    #for UMD
+    isa_tab_file = '/Users/junda-radboudumc/Radboudumc_projects/UMD-ISA-Collaboration/ISA_files/i_Investigation.txt'
     main(isa_tab_file)
