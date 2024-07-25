@@ -1,0 +1,264 @@
+Unnamed: 0,feature.name,database.ID,database,database.version,Uniprot_ID,original,source,mapping,target
+0,eukaryotic translation initiation factor 4E binding protein 1,4EBP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13541,Q13541,Uniprot-TrEMBL,ENSG00000187840,En
+1,adenosine deaminase,ADA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P00813,P00813,Uniprot-TrEMBL,ENSG00000196839,En
+2,adrenomedullin,ADML_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P35318,P35318,Uniprot-TrEMBL,ENSG00000148926,En
+3,anterior gradient 2,AGR3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8TD06,Q8TD06,Uniprot-TrEMBL,ENSG00000173467,En
+4,egf-like module containing mucin-like hormone receptor-like 2,AGRE2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UHX3,Q9UHX3,Uniprot-TrEMBL,ENSG00000127507,En
+5,G protein-coupled receptor 56,AGRG1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y653,Q9Y653,Uniprot-TrEMBL,ENSG00000205336,En
+6,G protein-coupled receptor 64,AGRG2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8IZP9,Q8IZP9,Uniprot-TrEMBL,ENSG00000173698,En
+7,angiopoietin-like 7,ANGL7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O43827,O43827,Uniprot-TrEMBL,ENSG00000171819,En
+8,angiopoietin 1,ANGP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15389,Q15389,Uniprot-TrEMBL,ENSG00000154188,En
+9,angiopoietin 2,ANGP2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O15123,O15123,Uniprot-TrEMBL,ENSG00000091879,En
+10,annexin A11,ANX11_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P50995,P50995,Uniprot-TrEMBL,ENSG00000122359,En
+11,annexin A4,ANXA4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P09525,P09525,Uniprot-TrEMBL,ENSG00000196975,En
+12,amyloid beta (A4) precursor-like protein 1,APLP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P51693,P51693,Uniprot-TrEMBL,ENSG00000105290,En
+13,arginase 1,ARGI1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P05089,P05089,Uniprot-TrEMBL,ENSG00000118520,En
+14,chemokine (C-C motif) ligand 4,ARGI2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P78540,P78540,Uniprot-TrEMBL,ENSG00000081181,En
+15,aryl hydrocarbon receptor nuclear translocator,ARNT2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9HBZ2,Q9HBZ2,Uniprot-TrEMBL,ENSG00000172379,En
+16,artemin,ARTN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q5T4W7,Q5T4W7,Uniprot-TrEMBL,ENSG00000117407,En
+17,ADAM metallopeptidase with thrombospondin type 1 motif 13,ATS13_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q76LX8,Q76LX8,Uniprot-TrEMBL,ENSG00000160323,En
+18,axin 1,AXIN1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O15169,O15169,Uniprot-TrEMBL,ENSG00000103126,En
+19,BCL2-associated athanogene 6,BAG6_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P46379,P46379,Uniprot-TrEMBL,ENSG00000204463,En
+20,BMP and activin membrane-bound inhibitor,BAMBI_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13145,Q13145,Uniprot-TrEMBL,ENSG00000095739,En
+21,BH3 interacting domain death agonist,BID_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P55957,P55957,Uniprot-TrEMBL,ENSG00000015475,En
+22,bone morphogenetic protein 6,BMP6_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P22004,P22004,Uniprot-TrEMBL,ENSG00000153162,En
+23,butyrophilin subfamily 3 member A2,BT3A2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P78410,P78410,Uniprot-TrEMBL,ENSG00000186470,En
+24,betacellulin,BTC_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P35070,P35070,Uniprot-TrEMBL,ENSG00000174808,En
+25,carbonic anhydrase XII,CAH12_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O43570,O43570,Uniprot-TrEMBL,ENSG00000074410,En
+26,carbonic anhydrase XIII,CAH13_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8N1Q1,Q8N1Q1,Uniprot-TrEMBL,ENSG00000185015,En
+27,carbonic anhydrase XIV,CAH14_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9ULX7,Q9ULX7,Uniprot-TrEMBL,ENSG00000118298,En
+28,calreticulin,CALR3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96L12,Q96L12,Uniprot-TrEMBL,ENSG00000269058,En
+29,calcium activated nucleotidase 1,CANT1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8WVQ1,Q8WVQ1,Uniprot-TrEMBL,ENSG00000171302,En
+30,cathepsin H,CATH_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P09668,P09668,Uniprot-TrEMBL,ENSG00000103811,En
+31,cathepsin L,CATL1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P07711,P07711,Uniprot-TrEMBL,ENSG00000135047,En
+32,cathepsin O,CATO_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P43234,P43234,Uniprot-TrEMBL,ENSG00000256043,En
+33,chemokine (C-C motif) ligand 7,CCR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P32246,P32246,Uniprot-TrEMBL,ENSG00000163823,En
+34,chemokine (C-C motif) ligand 19,CCR7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P32248,P32248,Uniprot-TrEMBL,ENSG00000126353,En
+35,CD2-associated protein,CD2AP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y5K6,Q9Y5K6,Uniprot-TrEMBL,ENSG00000198087,En
+36,CD4 molecule,CD4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01730,P01730,Uniprot-TrEMBL,ENSG00000010610,En
+37,CD40 ligand,CD40L_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P29965,P29965,Uniprot-TrEMBL,ENSG00000102245,En
+38,CUB domain containing protein 1,CDCP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9H5V8,Q9H5V8,Uniprot-TrEMBL,ENSG00000163814,En
+39,cadherin-related family member 5,CDHR5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9HBB8,Q9HBB8,Uniprot-TrEMBL,ENSG00000099834,En
+40,corneodesmosin,CDSN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15517,,,,
+41,carcinoembryonic antigen-related cell adhesion molecule 8,CEAM8_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P31997,P31997,Uniprot-TrEMBL,ENSG00000124469,En
+42,cytoskeleton-associated protein 4,CKAP4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q07065,Q07065,Uniprot-TrEMBL,ENSG00000136026,En
+43,C-type lectin domain family 1 member A,CLC1A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8NC01,Q8NC01,Uniprot-TrEMBL,ENSG00000150048,En
+44,C-type lectin domain family 4 member A,CLC4A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UMR7,Q9UMR7,Uniprot-TrEMBL,ENSG00000111729,En
+45,C-type lectin domain family 4 member C,CLC4C_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8WTT0,Q8WTT0,Uniprot-TrEMBL,ENSG00000198178,En
+46,C-type lectin domain family 4 member D,CLC4D_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8WXI8,Q8WXI8,Uniprot-TrEMBL,ENSG00000166527,En
+47,C-type lectin domain family 4 member G,CLC4G_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q6UXB4,Q6UXB4,Uniprot-TrEMBL,ENSG00000182566,En
+48,C-type lectin domain family 5 member A,CLC5A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NY25,Q9NY25,Uniprot-TrEMBL,ENSG00000258227,En
+49,C-type lectin domain family 6 member A,CLC6A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q6EIG7,Q6EIG7,Uniprot-TrEMBL,ENSG00000205846,En
+50,C-type lectin domain family 7 member A,CLC7A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9BXN2,Q9BXN2,Uniprot-TrEMBL,ENSG00000172243,En
+51,CXADR-like membrane protein,CLMP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9H6B4,Q9H6B4,Uniprot-TrEMBL,ENSG00000166250,En
+52,claspin,CLSPN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9HAW4,Q9HAW4,Uniprot-TrEMBL,ENSG00000092853,En
+53,contactin associated protein-like 2,CNTP2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UHC6,Q9UHC6,Uniprot-TrEMBL,ENSG00000174469,En
+54,catechol-O-methyltransferase,COMT_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21964,P21964,Uniprot-TrEMBL,ENSG00000093010,En
+55,chordin-like 2,CRDL2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q6WN34,Q6WN34,Uniprot-TrEMBL,ENSG00000054938,En
+56,corticotropin releasing hormone,CRF_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P06850,P06850,Uniprot-TrEMBL,ENSG00000147571,En
+57,versican,CSPG2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P13611,P13611,Uniprot-TrEMBL,ENSG00000038427,En
+58,calsyntenin 2,CSTN2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9H4D0,Q9H4D0,Uniprot-TrEMBL,ENSG00000158258,En
+59,interleukin 8,CXCR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P25024,P25024,Uniprot-TrEMBL,ENSG00000163464,En
+60,cystatin D,CYTD_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P28325,P28325,Uniprot-TrEMBL,ENSG00000170367,En
+61,diablo IAP-binding mitochondrial protein,DBLOH_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NR28,Q9NR28,Uniprot-TrEMBL,ENSG00000184047,En
+62,dynactin 1,DCTN1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q14203,Q14203,Uniprot-TrEMBL,ENSG00000204843,En
+63,diacylglycerol kinase zeta,DGKZ_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13574,Q13574,Uniprot-TrEMBL,ENSG00000149091,En
+64,hydroxysteroid (11-beta) dehydrogenase 1,DHI1L_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q7Z5J1,Q7Z5J1,Uniprot-TrEMBL,ENSG00000167733,En
+65,quinoid dihydropteridine reductase,DHPR_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P09417,P09417,Uniprot-TrEMBL,ENSG00000151552,En
+66,dipeptidyl-peptidase 7,DPP2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UHL4,Q9UHL4,Uniprot-TrEMBL,ENSG00000176978,En
+67,dipeptidyl-peptidase 6,DPP6_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P42658,P42658,Uniprot-TrEMBL,ENSG00000130226,En
+68,desmoglein 4,DSG4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q86SJ6,Q86SJ6,Uniprot-TrEMBL,ENSG00000175065,En
+69,ectodysplasin A receptor,EDAD_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8WWZ3,Q8WWZ3,Uniprot-TrEMBL,ENSG00000186197,En
+70,transmembrane protease serine 15,ENTK_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P98073,P98073,Uniprot-TrEMBL,ENSG00000154646,En
+71,ectonucleoside triphosphate diphosphohydrolase 2,ENTP2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y5L3,Q9Y5L3,Uniprot-TrEMBL,ENSG00000054179,En
+72,ectonucleoside triphosphate diphosphohydrolase 5,ENTP5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O75356,O75356,Uniprot-TrEMBL,ENSG00000187097,En
+73,erythropoietin,EPO_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01588,P01588,Uniprot-TrEMBL,ENSG00000130427,En
+74,erbb2 interacting protein,ERBIN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96RT1,Q96RT1,Uniprot-TrEMBL,ENSG00000112851,En
+75,carboxylesterase 2,EST2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O00748,O00748,Uniprot-TrEMBL,ENSG00000172831,En
+76,fructose-1-6-bisphosphatase 1,F16P1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P09467,P09467,Uniprot-TrEMBL,ENSG00000165140,En
+77,Fc receptor-like 3,FCRL3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96P31,Q96P31,Uniprot-TrEMBL,ENSG00000160856,En
+78,feline sarcoma oncogene,FES_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P07332,P07332,Uniprot-TrEMBL,ENSG00000182511,En
+79,fibroblast growth factor 19,FGF19_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O95750,O95750,Uniprot-TrEMBL,ENSG00000162344,En
+80,fibroblast growth factor 21,FGF21_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NSA1,Q9NSA1,Uniprot-TrEMBL,ENSG00000105550,En
+80,fibroblast growth factor 21,FGF21_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NSA1,Q9NSA1,Uniprot-TrEMBL,ENSG00000105550,En
+81,fibroblast growth factor 21,FGF21_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NSA1,Q9NSA1,Uniprot-TrEMBL,ENSG00000105550,En
+81,fibroblast growth factor 21,FGF21_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NSA1,Q9NSA1,Uniprot-TrEMBL,ENSG00000105550,En
+82,fibroblast growth factor 23,FGF23_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9GZV9,Q9GZV9,Uniprot-TrEMBL,ENSG00000118972,En
+82,fibroblast growth factor 23,FGF23_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9GZV9,Q9GZV9,Uniprot-TrEMBL,ENSG00000118972,En
+83,fibroblast growth factor 23,FGF23_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9GZV9,Q9GZV9,Uniprot-TrEMBL,ENSG00000118972,En
+83,fibroblast growth factor 23,FGF23_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9GZV9,Q9GZV9,Uniprot-TrEMBL,ENSG00000118972,En
+84,fibroblast growth factor 5,FGF5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P12034,P12034,Uniprot-TrEMBL,ENSG00000138675,En
+85,fms-related tyrosine kinase 3 ligand,FLT3L_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P49771,P49771,Uniprot-TrEMBL,ENSG00000090554,En
+86,follistatin,FSTL3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O95633,O95633,Uniprot-TrEMBL,ENSG00000070404,En
+87,FXYD domain containing ion transport regulator 5,FXYD5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96DB9,Q96DB9,Uniprot-TrEMBL,ENSG00000089327,En
+88,UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3 (GalNAc-T3),GALT3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q14435,Q14435,Uniprot-TrEMBL,ENSG00000115339,En
+89,placental growth factor,GCM1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NP62,Q9NP62,Uniprot-TrEMBL,ENSG00000137270,En
+89,placental growth factor,GCM1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NP62,Q9NP62,Uniprot-TrEMBL,ENSG00000137270,En
+90,placental growth factor,GCM1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NP62,Q9NP62,Uniprot-TrEMBL,ENSG00000137270,En
+90,placental growth factor,GCM1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NP62,Q9NP62,Uniprot-TrEMBL,ENSG00000137270,En
+91,growth differentiation factor 2,GDF2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UK05,Q9UK05,Uniprot-TrEMBL,ENSG00000263761,En
+92,glial cell derived neurotrophic factor,GFRAL_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q6UXV0,Q6UXV0,Uniprot-TrEMBL,ENSG00000187871,En
+93,glutaredoxin (thioltransferase),GLRX2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NS18,Q9NS18,Uniprot-TrEMBL,ENSG00000023572,En
+94,hepatitis A virus cellular receptor 1,HAVR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96D42,Q96D42,Uniprot-TrEMBL,ENSG00000113249,En
+94,hepatitis A virus cellular receptor 1,HAVR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96D42,Q96D42,Uniprot-TrEMBL,ENSG00000113249,En
+95,hepatitis A virus cellular receptor 1,HAVR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96D42,Q96D42,Uniprot-TrEMBL,ENSG00000113249,En
+95,hepatitis A virus cellular receptor 1,HAVR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96D42,Q96D42,Uniprot-TrEMBL,ENSG00000113249,En
+96,heparin-binding EGF-like growth factor,HBEGF_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q99075,Q99075,Uniprot-TrEMBL,ENSG00000113070,En
+97,hematopoietic cell-specific Lyn substrate 1,HCLS1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P14317,P14317,Uniprot-TrEMBL,ENSG00000180353,En
+98,hepatoma-derived growth factor,HDGR3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y3E1,Q9Y3E1,Uniprot-TrEMBL,ENSG00000166503,En
+99,histamine N-methyltransferase,HNMT_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P50135,P50135,Uniprot-TrEMBL,ENSG00000150540,En
+100,hematopoietic prostaglandin D synthase,HPGDS_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O60760,O60760,Uniprot-TrEMBL,ENSG00000163106,En
+101,interleukin 12 receptor beta 1,I12R1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P42701,P42701,Uniprot-TrEMBL,ENSG00000096996,En
+102,interleukin 15 receptor alpha,I15RA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13261,Q13261,Uniprot-TrEMBL,ENSG00000134470,En
+103,insulin-like growth factor binding protein-like 1,IBPL1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8WX77,Q8WX77,Uniprot-TrEMBL,ENSG00000137142,En
+104,eukaryotic translation initiation factor 4 gamma 1,IF4G1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q04637,Q04637,Uniprot-TrEMBL,ENSG00000114867,En
+105,eukaryotic translation initiation factor 5A,IF5A2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9GZV4,Q9GZV4,Uniprot-TrEMBL,ENSG00000163577,En
+106,interleukin 10,IL10_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P22301,P22301,Uniprot-TrEMBL,ENSG00000136634,En
+106,interleukin 10,IL10_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P22301,P22301,Uniprot-TrEMBL,ENSG00000136634,En
+107,interleukin 10,IL10_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P22301,P22301,Uniprot-TrEMBL,ENSG00000136634,En
+107,interleukin 10,IL10_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P22301,P22301,Uniprot-TrEMBL,ENSG00000136634,En
+108,interleukin 13,IL13_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P35225,P35225,Uniprot-TrEMBL,ENSG00000169194,En
+109,interleukin 16,IL16_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q14005,Q14005,Uniprot-TrEMBL,ENSG00000172349,En
+110,interleukin 17A,IL17_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q16552,Q16552,Uniprot-TrEMBL,ENSG00000112115,En
+111,interleukin 17C,IL17C_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9P0M4,Q9P0M4,Uniprot-TrEMBL,ENSG00000124391,En
+112,interleukin 17D,IL17D_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8TAD2,Q8TAD2,Uniprot-TrEMBL,ENSG00000172458,En
+113,interleukin 18 receptor 1,IL18R_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13478,Q13478,Uniprot-TrEMBL,ENSG00000115604,En
+114,interleukin 1 alpha,IL1A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01583,P01583,Uniprot-TrEMBL,ENSG00000115008,En
+115,interleukin 1 receptor antagonist,IL1RA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P18510,P18510,Uniprot-TrEMBL,ENSG00000136689,En
+116,interleukin 2,IL2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P60568,P60568,Uniprot-TrEMBL,ENSG00000109471,En
+117,interleukin 20,IL20_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NYY1,Q9NYY1,Uniprot-TrEMBL,ENSG00000162891,En
+118,interleukin 24,IL24_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13007,Q13007,Uniprot-TrEMBL,ENSG00000162892,En
+119,interleukin 2 receptor beta,IL2RB_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P14784,P14784,Uniprot-TrEMBL,ENSG00000100385,En
+120,interleukin 33,IL33_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O95760,O95760,Uniprot-TrEMBL,ENSG00000137033,En
+121,interleukin 4,IL4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P05112,P05112,Uniprot-TrEMBL,ENSG00000113520,En
+122,interleukin 4 receptor,IL4RA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P24394,P24394,Uniprot-TrEMBL,ENSG00000077238,En
+123,interleukin 7,IL7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P13232,P13232,Uniprot-TrEMBL,ENSG00000104432,En
+124,interleukin 1 receptor-like 2,ILRL2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9HB29,Q9HB29,Uniprot-TrEMBL,ENSG00000115598,En
+125,interferon gamma,INGR2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P38484,P38484,Uniprot-TrEMBL,ENSG00000159128,En
+126,interferon lambda receptor 1,INLR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8IU57,Q8IU57,Uniprot-TrEMBL,ENSG00000185436,En
+127,interleukin-1 receptor-associated kinase 1,IRAK1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P51617,P51617,Uniprot-TrEMBL,ENSG00000184216,En
+128,interleukin-1 receptor-associated kinase 4,IRAK4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NWZ3,Q9NWZ3,Uniprot-TrEMBL,ENSG00000198001,En
+129,interferon regulatory factor 9,IRF9_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q00978,Q00978,Uniprot-TrEMBL,ENSG00000213928,En
+130,integrin alpha 11,ITA11_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UKX5,Q9UKX5,Uniprot-TrEMBL,ENSG00000137809,En
+131,integrin alpha 6,ITA6_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P23229,P23229,Uniprot-TrEMBL,ENSG00000091409,En
+132,integrin beta 6,ITB6_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P18564,P18564,Uniprot-TrEMBL,ENSG00000115221,En
+133,integrin beta 7,ITB7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P26010,P26010,Uniprot-TrEMBL,ENSG00000139626,En
+134,integrin beta 1 binding protein 1,ITBP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O14713,O14713,Uniprot-TrEMBL,ENSG00000119185,En
+135,integral membrane protein 2A,ITM2A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O43736,O43736,Uniprot-TrEMBL,ENSG00000078596,En
+136,keratin 19,K1C19_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P08727,P08727,Uniprot-TrEMBL,ENSG00000171345,En
+137,casein kinase 1 delta,KC1D_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P48730,P48730,Uniprot-TrEMBL,ENSG00000141551,En
+138,mevalonate kinase,KIME_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q03426,Q03426,Uniprot-TrEMBL,ENSG00000110921,En
+139,killer cell lectin-like receptor subfamily D member 1,KLRD1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13241,Q13241,Uniprot-TrEMBL,ENSG00000134539,En
+140,protein kinase C theta,KPCT_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q04759,Q04759,Uniprot-TrEMBL,ENSG00000065675,En
+141,lymphocyte-activation gene 3,LAG3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P18627,P18627,Uniprot-TrEMBL,ENSG00000089692,En
+142,lysosomal-associated membrane protein 3,LAMP3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UQV4,Q9UQV4,Uniprot-TrEMBL,ENSG00000078081,En
+143,leptin,LEP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P41159,P41159,Uniprot-TrEMBL,ENSG00000174697,En
+144,glyoxalase I,LGUL_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q04760,Q04760,Uniprot-TrEMBL,ENSG00000124767,En
+145,leukemia inhibitory factor,LIFR_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P42702,P42702,Uniprot-TrEMBL,ENSG00000113594,En
+146,lipoprotein lipase,LIPL_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P06858,P06858,Uniprot-TrEMBL,ENSG00000175445,En
+147,leukotriene A4 hydrolase,LKHA4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P09960,P09960,Uniprot-TrEMBL,ENSG00000111144,En
+148,low density lipoprotein receptor-related protein 1,LRP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q07954,Q07954,Uniprot-TrEMBL,ENSG00000123384,En
+149,low density lipoprotein receptor-related protein 11,LRP11_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q86VZ4,Q86VZ4,Uniprot-TrEMBL,ENSG00000120256,En
+150,lymphocyte antigen 75,LY75_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O60449,O60449,Uniprot-TrEMBL,ENSG00000054219,En
+151,mitogen-activated protein kinase kinase kinase kinase 5,M4K5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y4K4,Q9Y4K4,Uniprot-TrEMBL,ENSG00000012983,En
+152,macrophage erythroblast attacher,MAEA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q7L5Y9,Q7L5Y9,Uniprot-TrEMBL,ENSG00000090316,En
+153,macrophage receptor with collagenous structure,MARCO_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UEW3,Q9UEW3,Uniprot-TrEMBL,ENSG00000019169,En
+154,serine/threonine kinase 4,MAST4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O15021,O15021,Uniprot-TrEMBL,ENSG00000069020,En
+155,MYC associated factor X,MAX_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P61244,P61244,Uniprot-TrEMBL,ENSG00000125952,En
+156,mast cell immunoglobulin-like receptor 1,MILR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q7Z6M3,Q7Z6M3,Uniprot-TrEMBL,ENSG00000271605,En
+157,NAD kinase,NADK_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O95544,O95544,Uniprot-TrEMBL,ENSG00000008130,En
+158,nibrin,NBN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O60934,O60934,Uniprot-TrEMBL,ENSG00000104320,En
+159,neutrophil cytosolic factor 2,NCF2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P19878,P19878,Uniprot-TrEMBL,ENSG00000116701,En
+160,natural cytotoxicity triggering receptor 1,NCTR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O76036,O76036,Uniprot-TrEMBL,ENSG00000189430,En
+161,protein phosphatase 1 regulatory subunit 9B,NEB2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96SB3,Q96SB3,Uniprot-TrEMBL,ENSG00000108819,En
+162,inhibitor of kappa light polypeptide gene enhancer in B-cells kinase gamma,NEMO_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y6K9,Q9Y6K9,Uniprot-TrEMBL,ENSG00000269335,En
+163,NODAL modulator 1,NOMO1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15155,Q15155,Uniprot-TrEMBL,ENSG00000103512,En
+164,neuronal pentraxin receptor,NPTXR_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O95502,O95502,Uniprot-TrEMBL,ENSG00000221890,En
+165,neurturin,NRTN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q99748,Q99748,Uniprot-TrEMBL,ENSG00000171119,En
+166,linker for activation of T cells family member 2,NTAL_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9GZY6,Q9GZY6,Uniprot-TrEMBL,ENSG00000086730,En
+167,neurotrophin 3,NTF3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P20783,P20783,Uniprot-TrEMBL,ENSG00000185652,En
+168,neurotrophin 4,NTF4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P34130,P34130,Uniprot-TrEMBL,ENSG00000225950,En
+169,negative regulator of ubiquitin-like proteins 1,NUB1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y5A7,Q9Y5A7,Uniprot-TrEMBL,ENSG00000013374,En
+170,nucleobindin 2,NUCB2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P80303,P80303,Uniprot-TrEMBL,ENSG00000070081,En
+171,chemokine (C-X-C motif) ligand 9,OAS3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y6K5,Q9Y6K5,Uniprot-TrEMBL,ENSG00000111331,En
+172,oncostatin M,ONCM_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P13725,P13725,Uniprot-TrEMBL,ENSG00000099985,En
+173,osteoclast associated immunoglobulin-like receptor,OSCAR_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8IYS5,Q8IYS5,Uniprot-TrEMBL,ENSG00000170909,En
+174,poly (ADP-ribose) polymerase 1,PARP1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P09874,P09874,Uniprot-TrEMBL,ENSG00000143799,En
+175,paxillin,PAXI_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P49023,P49023,Uniprot-TrEMBL,ENSG00000089159,En
+176,programmed cell death 1,PD1L1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NZQ7,Q9NZQ7,Uniprot-TrEMBL,ENSG00000120217,En
+177,programmed cell death 1 ligand 2,PD1L2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9BQ51,Q9BQ51,Uniprot-TrEMBL,ENSG00000197646,En
+178,platelet-derived growth factor beta polypeptide,PDGFB_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01127,P01127,Uniprot-TrEMBL,ENSG00000100311,En
+179,platelet derived growth factor C,PDGFC_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NRA1,Q9NRA1,Uniprot-TrEMBL,ENSG00000145431,En
+180,decorin,PGS2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P07585,P07585,Uniprot-TrEMBL,ENSG00000011465,En
+181,polymeric immunoglobulin receptor,PIGR_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01833,P01833,Uniprot-TrEMBL,ENSG00000162896,En
+182,perilipin 1,PLIN1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O60240,O60240,Uniprot-TrEMBL,ENSG00000166819,En
+183,plexin A4,PLXA4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9HCM2,Q9HCM2,Uniprot-TrEMBL,ENSG00000221866,En
+184,paraoxonase 2,PON2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15165,Q15165,Uniprot-TrEMBL,ENSG00000105854,En
+185,peroxiredoxin 1,PRDX1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q06830,Q06830,Uniprot-TrEMBL,ENSG00000117450,En
+186,peroxiredoxin 3,PRDX3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P30048,P30048,Uniprot-TrEMBL,ENSG00000165672,En
+187,peroxiredoxin 5,PRDX5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P30044,P30044,Uniprot-TrEMBL,ENSG00000126432,En
+188,proline/arginine-rich end leucine-rich repeat protein,PRELP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P51888,P51888,Uniprot-TrEMBL,ENSG00000188783,En
+189,protein kinase interferon-inducible double stranded RNA dependent activator,PRKRA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O75569,O75569,Uniprot-TrEMBL,ENSG00000180228,En
+190,parvalbumin,PRVA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P20472,P20472,Uniprot-TrEMBL,ENSG00000100362,En
+191,parathyroid hormone 1 receptor,PTH1R_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q03431,Q03431,Uniprot-TrEMBL,ENSG00000160801,En
+192,protein tyrosine kinase 7,PTK7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13308,Q13308,Uniprot-TrEMBL,ENSG00000112655,En
+193,pleiotrophin,PTN_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21246,P21246,Uniprot-TrEMBL,ENSG00000105894,En
+194,protein tyrosine phosphatase receptor type J,PTPRJ_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q12913,Q12913,Uniprot-TrEMBL,ENSG00000149177,En
+195,advanced glycosylation end product-specific receptor,RAGE_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15109,Q15109,Uniprot-TrEMBL,ENSG00000204305,En
+196,REST corepressor 1,RCOR1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UKL0,Q9UKL0,Uniprot-TrEMBL,ENSG00000089902,En
+197,renin,RENI_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P00797,P00797,Uniprot-TrEMBL,ENSG00000143839,En
+198,reticulon 4 receptor,RTN4R_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9BZR6,Q9BZR6,Uniprot-TrEMBL,ENSG00000040608,En
+199,S100 calcium binding protein P,S100P_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P25815,P25815,Uniprot-TrEMBL,ENSG00000163993,En
+200,S100 calcium binding protein A12,S10AC_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P80511,P80511,Uniprot-TrEMBL,ENSG00000163221,En
+201,adenosylhomocysteinase,SAHH_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P23526,P23526,Uniprot-TrEMBL,ENSG00000101444,En
+202,KIT ligand,SCF_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21583,P21583,Uniprot-TrEMBL,ENSG00000049130,En
+202,KIT ligand,SCF_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21583,P21583,Uniprot-TrEMBL,ENSG00000049130,En
+203,KIT ligand,SCF_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21583,P21583,Uniprot-TrEMBL,ENSG00000049130,En
+203,KIT ligand,SCF_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21583,P21583,Uniprot-TrEMBL,ENSG00000049130,En
+204,syndecan 4,SDC4_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P31431,P31431,Uniprot-TrEMBL,ENSG00000124145,En
+205,selectin P ligand,SELPL_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q14242,Q14242,Uniprot-TrEMBL,ENSG00000110876,En
+206,inositol polyphosphate phosphatase-like 1,SHIP2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O15357,O15357,Uniprot-TrEMBL,ENSG00000165458,En
+207,sialic acid binding Ig-like lectin 7,SIGL7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9Y286,Q9Y286,Uniprot-TrEMBL,ENSG00000168995,En
+208,sirtuin 2,SIR2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8IXJ6,Q8IXJ6,Uniprot-TrEMBL,ENSG00000068903,En
+209,sirtuin 5,SIR5_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NXA8,Q9NXA8,Uniprot-TrEMBL,ENSG00000124523,En
+210,SLAM family member 7,SLAF7_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NQ25,Q9NQ25,Uniprot-TrEMBL,ENSG00000026751,En
+211,SMAD family member 1,SMAD1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15797,Q15797,Uniprot-TrEMBL,ENSG00000170365,En
+212,growth hormone 1,SOMA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01241,P01241,Uniprot-TrEMBL,ENSG00000259384,En
+213,sclerostin,SOST_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9BQB4,Q9BQB4,Uniprot-TrEMBL,ENSG00000167941,En
+214,SRSF protein kinase 2,SRPK2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P78362,P78362,Uniprot-TrEMBL,ENSG00000135250,En
+215,STAM binding protein,STALP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q96FJ0,Q96FJ0,Uniprot-TrEMBL,ENSG00000138134,En
+216,stanniocalcin 1,STC1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P52823,P52823,Uniprot-TrEMBL,ENSG00000159167,En
+217,chemokine (C-X-C motif) ligand 12,STK39_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UEW8,Q9UEW8,Uniprot-TrEMBL,ENSG00000198648,En
+218,syntaxin 8,STX8_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9UNK0,Q9UNK0,Uniprot-TrEMBL,ENSG00000170310,En
+219,syntaxin binding protein 3,STXB3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O00186,O00186,Uniprot-TrEMBL,ENSG00000116266,En
+220,sulfatase modifying factor 2,SUMF2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q8NBJ7,Q8NBJ7,Uniprot-TrEMBL,ENSG00000129103,En
+221,thyroid stimulating hormone beta,TBX19_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O60806,O60806,Uniprot-TrEMBL,ENSG00000143178,En
+222,trefoil factor 2,TFF2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q03403,Q03403,Uniprot-TrEMBL,ENSG00000160181,En
+223,transforming growth factor alpha,TGFA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01135,P01135,Uniprot-TrEMBL,ENSG00000163235,En
+224,transforming growth factor beta 1,TGFB1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01137,,,,
+225,transglutaminase 2,TGM2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P21980,P21980,Uniprot-TrEMBL,ENSG00000198959,En
+226,tumor necrosis factor (ligand) superfamily member 10,TNF10_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P50591,P50591,Uniprot-TrEMBL,ENSG00000121858,En
+227,tumor necrosis factor (ligand) superfamily member 11,TNF11_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O14788,O14788,Uniprot-TrEMBL,ENSG00000120659,En
+228,tumor necrosis factor (ligand) superfamily member 12,TNF12_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O43508,O43508,Uniprot-TrEMBL,ENSG00000239697,En
+229,tumor necrosis factor (ligand) superfamily member 14,TNF14_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O43557,O43557,Uniprot-TrEMBL,ENSG00000125735,En
+230,lymphotoxin alpha,TNFB_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P01374,P01374,Uniprot-TrEMBL,ENSG00000226979,En
+231,tumor necrosis factor,TNR1A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P19438,P19438,Uniprot-TrEMBL,ENSG00000067182,En
+232,tumor necrosis factor receptor superfamily member 9,TNR9_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q07011,Q07011,Uniprot-TrEMBL,ENSG00000049249,En
+233,thrombopoietin,TPOR_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P40238,P40238,Uniprot-TrEMBL,ENSG00000117400,En
+234,tumor necrosis factor receptor superfamily member 10a,TR10A_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O00220,O00220,Uniprot-TrEMBL,ENSG00000104689,En
+235,tumor necrosis factor receptor superfamily member 10b,TR10B_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O14763,O14763,Uniprot-TrEMBL,ENSG00000120889,En
+236,tumor necrosis factor receptor superfamily member 11b,TR11B_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O00300,O00300,Uniprot-TrEMBL,ENSG00000164761,En
+237,tumor necrosis factor receptor superfamily member 13B,TR13B_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,O14836,O14836,Uniprot-TrEMBL,ENSG00000240505,En
+238,TNF receptor-associated factor 2,TRAF2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q12933,Q12933,Uniprot-TrEMBL,ENSG00000127191,En
+239,thrombomodulin,TRBM_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P07204,P07204,Uniprot-TrEMBL,ENSG00000178726,En
+240,triggering receptor expressed on myeloid cells 1,TREM1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q9NP99,Q9NP99,Uniprot-TrEMBL,ENSG00000124731,En
+241,chemokine (C-C motif) ligand 20,TRI32_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q13049,Q13049,Uniprot-TrEMBL,ENSG00000119401,En
+242,tryptase alpha/beta 1,TRYB1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q15661,Q15661,Uniprot-TrEMBL,ENSG00000172236,En
+243,thymic stromal lymphopoietin,TSLP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q969D9,Q969D9,Uniprot-TrEMBL,ENSG00000145777,En
+244,thrombospondin 2,TSP2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P35442,P35442,Uniprot-TrEMBL,ENSG00000186340,En
+245,thymidine phosphorylase,TYPH_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P19971,P19971,Uniprot-TrEMBL,ENSG00000025708,En
+246,vasohibin 1,VASH1_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q7L8A9,Q7L8A9,Uniprot-TrEMBL,ENSG00000071246,En
+247,vascular endothelial growth factor A,VEGFA_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P15692,P15692,Uniprot-TrEMBL,ENSG00000112715,En
+248,vascular endothelial growth factor C,VEGFC_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P49767,P49767,Uniprot-TrEMBL,ENSG00000150630,En
+249,Wiskott-Aldrich syndrome,WASP_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P42768,P42768,Uniprot-TrEMBL,ENSG00000015285,En
+250,zinc finger and BTB domain containing 16,ZBT16_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q05516,Q05516,Uniprot-TrEMBL,ENSG00000109906,En
