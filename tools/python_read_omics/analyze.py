@@ -1,5 +1,5 @@
-''' usage: python analyze.py i- https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_Su_2020_feature-data.csv
- -m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_Su_2020_feature-metadata.csv
+''' usage: python analyze.py i- https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/transcriptomics/transcriptomics_Su_2020_feature-data.csv
+ -m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/transcriptomics/transcriptomics_Su_2020_feature-metadata.csv
 -s https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/samples_dict.json -f IL10 -o IL10_result.png
 '''
 
@@ -121,7 +121,7 @@ if __name__ == '__main__':
     # Read the omics data using the function 'read_omics_data'
     df = read_omics_data(omics_file)
     print(df.head())
-    
+
     # Create an empty list and append the desired feature
     features_list = [options.feature]
     #print(features_list)
