@@ -5,16 +5,15 @@
 
 import sys
 import json
-import pandas as pd
 import numpy as np
+import argparse
 import matplotlib.pyplot as plt
-from optparse import OptionParser
 import requests
 
 from functions import *
 
 # Argument values
-input = sys.argv
+# input = sys.argv
 
 def download_file(url, local_filename):
     """
@@ -42,124 +41,145 @@ def download_file(url, local_filename):
 
 def parse_args():
     """
-    Parse CLI options.
+    Parse CLI args.
 
     Returns
     -------
     dict
-        User CLI options
+        User CLI args
     """
     usage = "usage: python3 analyze.py \
         -i[--omics] https://raw.githubusercontent.com/user/repo/branch/path/to/proteomics_Su_2020_feature-data.csv \
-        -m[--meta] https://raw.githubusercontent.com/user/repo/branch/path/to/proteomics_Su_2020_feature-metadata.csv \
         -s[--samples] https://raw.githubusercontent.com/user/repo/branch/path/to/samples_dict.json \
         -f[--feature] IL10 \
         -o[--out] IL10_results.png"
-    required=["omics","meta","samples","feature"]
-    parser = OptionParser(usage)
-    parser.add_option('-i', '--omics',
-                      dest="omics", 
+    required=["omics","samples","feature"]
+    parser = argparse.ArgumentParser(usage)
+    parser.add_argument('-i', '--omics',
+                      dest="omics",
                       help="URL to transcriptomics-feature-data file(csv). [required]"
                       )
-    parser.add_option('-m', '--meta',
-                      dest="meta", 
-                      help="URL to feature-metadata file(csv). [required]"
-                      )
-    parser.add_option('-s', '--samples',
-                      dest="samples", 
+    parser.add_argument('-s', '--samples',
+                      dest="samples",
                       help="URL to sample list JSON file. [required]"
                       )
-    parser.add_option('-f', '--feature',
-                      dest="feature", 
+    parser.add_argument('-f', '--feature',
+                      dest="feature",
                       help="Feature of Interest",
                       )
-    parser.add_option('-o', '--out',
-                      dest="out", 
+    parser.add_argument('-o', '--out',
+                      dest="out",
                       help="results [optional]"
                       )
-    parser.add_option('-v', '--verbose',
-                      dest="verbose", 
+    parser.add_argument('-v', '--verbose',
+                      dest="verbose",
                       help="run with verbose. [optional]",
                       default=True,
                       action="store_true"
                       )
-    options, args = parser.parse_args()
+    args = parser.parse_args()
     for r in required:
-        if options.__dict__[r] is None:
+        if args.__dict__[r] is None:
             parser.print_help()
             parser.error("parameter '%s' is required !" % r)
             sys.exit(1)
-            
-    if options.verbose:
+
+    if args.verbose:
         print( '# STARTING SERVICE\n' )
         print( '# Your input arguments are:' )
-        print( '# >omics:', options.omics)
-        print( '# >meta:', options.meta)
-        print( '# >samples:', options.samples)
-        print( '# >feature:', options.feature)
-        print( '# VERBOSE:', options.verbose )
-        verbose = options.verbose
+        print( '# >omics:', args.omics)
+        print( '# >samples:', args.samples)
+        print( '# >feature:', args.feature)
+        print( '# VERBOSE:', args.verbose )
+        verbose = args.verbose
     else:
         verbose = False
-    return options
+    return args
 
+def calculate_iqr_limits(data):
+    """
+    Calculate the IQR-based limits for data to ignore outliers.
+    
+    Parameters:
+    ----------
+    data : array-like
+        The data to calculate limits for.
+    
+    Returns:
+    -------
+    float
+        Lower limit.
+    float
+        Upper limit.
+    """
+    quatile1 = np.percentile(data, 25)
+    quatile3 = np.percentile(data, 75)
+    iqr = quatile3 - quatile1
+    lower_limit = quatile1 - 1.5 * iqr
+    upper_limit = quatile3 + 1.5 * iqr
+    return lower_limit, upper_limit
 # Main
 if __name__ == '__main__':
     print('# running script:', input, '\n')
-    
-    options = parse_args()
+
+    args = parse_args()
 
     # Download the files from the provided URLs
-    omics_file = download_file(options.omics, 'omics_data.csv')
-    meta_file = download_file(options.meta, 'metadata.csv')
-    samples_file = download_file(options.samples, 'samples.json')
+    OMICS_FILE = download_file(args.omics, 'omics_data.csv')
+    SAMPLES_FILE = download_file(args.samples, 'samples.json')
 
-    
 
     # Get feature data file and read it as a dataframe
-    #  transcriptomics_feature_data = options.omics
-    # Read the omics data using the function 'read_omics_data'
-    df = read_omics_data(omics_file)
-    print(df.head())
-
+    df = read_omics_data(OMICS_FILE)
     # Create an empty list and append the desired feature
-    features_list = [options.feature]
-    #print(features_list)
-    
+    features_list = [args.feature]
+
     # Load the sample list from the JSON file
-    with open(samples_file, 'r') as f:
+    with open(SAMPLES_FILE, 'r') as f:
         samples_dict = json.load(f)
-    print(samples_dict)
-    
+
     # Create a list to store data for boxplots
     data_for_boxplot = []
     labels = []
-    
+    all_values = []
+
     for group, sample_list in samples_dict.items():
-        # Get values for the feature of interest for the samples
-        df_subset = subset_omics_data(df, feature_list=features_list, sample_list=sample_list)
-        print(f'{group} subset:')
-        print(df_subset)
-        
+        # Check for missing sample IDs
+        missing_samples = [sample for sample in sample_list if sample not in df.columns]
+        if missing_samples:
+            print(f"Warning: The following samples from group'{group}' are not found in the dataframe: {missing_samples}")
+
+        # Filter out missing sample IDs
+        valid_samples = [sample for sample in sample_list if sample in df.columns]
+
+        if not valid_samples:
+            print(f"No valid samples found for group '{group}', skipping this group.")
+            continue
+
+        # Get values for the feature of interest for the valid samples
+        df_subset = subset_omics_data(df, feature_list=features_list, sample_list=valid_samples)
+
         # Append the data to the list for boxplots
         data_for_boxplot.append(df_subset.values.flatten())
         labels.append(group)
-    
-    # Print data for debugging
-    print("Data for boxplot:")
-    print(data_for_boxplot)
-    print("Labels:")
-    print(labels)
+
+        # Collect all values for IQR calculation
+        all_values.extend(df_subset.values.flatten())
+
+    # Calculate IQR limits for all values
+    lower_limit, upper_limit = calculate_iqr_limits(all_values)
+
 
     # Plot the boxplot
     fig = plt.figure(figsize=(15, 10))
-    plt.ylabel(str(options.feature))
-    #plt.yscale('log')
+    plt.ylabel(str(args.feature))
     plt.boxplot(data_for_boxplot, labels=labels)
-    plt.ylim(0, 250)
-    
+
+    # Adjust the y-axis limit based on IQR
+    plt.ylim(lower_limit, upper_limit)
+
     # Save and show plot
     print("--------")
-    print(options.out)
-    plt.savefig(options.out)
+    print(args.out)
+    plt.savefig(args.out)
     plt.show()
