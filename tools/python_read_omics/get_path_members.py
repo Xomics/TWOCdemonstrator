@@ -1,4 +1,6 @@
-''' usage:  python get_path_members.py -p https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/pathway.tsv -m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/mapped_proteomics.csv
+''' usage:  python get_path_members.py -p https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/pathway.tsv
+ -m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/mapped_proteomics.csv
+ -o proteomics_feautures.txt
 '''
 
 import argparse
@@ -54,17 +56,24 @@ def find_common_features(pathway_file, metadata_file):
 def main():
     parser = argparse.ArgumentParser(description='Find common features between pathway and metadata files.')
     parser.add_argument('-p', '--pathway_file', required=True, help='URL to the pathway file (TSV)')
-    parser.add_argument('-m', '--metadata_file', required=True, help='URL to the metadata file (CSV)')
-    
+    parser.add_argument('-m', '--metadata_file', required=True, help='URL to the omics metadata file (CSV)')
+    parser.add_argument('-o', '--output_file', required=True, help='Path to output file')
+
     args = parser.parse_args()
 
     # Download the files
     pathway_file = download_file(args.pathway_file, 'pathway_file.tsv')
     metadata_file = download_file(args.metadata_file, 'metadata_file.csv')
+    out_file = args.output_file
     
     feature_list = find_common_features(pathway_file, metadata_file)
     feature_list = [element.replace('_HUMAN', '') for element in feature_list]
+
     print(feature_list)
+
+    with open(out_file, "w") as file:
+        for item in feature_list:
+            file.write(f"{item}\n")
 
 if __name__ == '__main__':
     main()
