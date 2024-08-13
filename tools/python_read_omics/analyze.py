@@ -1,5 +1,4 @@
 ''' usage: python analyze.py i- https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/transcriptomics/transcriptomics_Su_2020_feature-data.csv
- -m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/transcriptomics/transcriptomics_Su_2020_feature-metadata.csv
 -s https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/samples_dict.json -f IL10 -o IL10_result.png
 '''
 
@@ -162,6 +161,9 @@ if __name__ == '__main__':
         # Append the data to the list for boxplots
         data_for_boxplot.append(df_subset.values.flatten())
         labels.append(group)
+
+        print(data_for_boxplot)
+        print(labels)
 
         # Collect all values for IQR calculation
         all_values.extend(df_subset.values.flatten())
