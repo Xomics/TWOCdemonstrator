@@ -1,15 +1,24 @@
+''' usage: python get_pathway.py "https://sparql.wikipathways.org/sparql" WP5039
+'''
+
+
 import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 def run_sparql_query(endpoint_url, pathway_id):
-    # Define the SPARQL query
     query = f"""
+    PREFIX dc: <http://purl.org/dc/elements/1.1/>
+    PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+
     SELECT DISTINCT ?pathway (STR(?label) AS ?geneProduct) WHERE {{
         ?geneProduct a wp:GeneProduct . 
         ?geneProduct rdfs:label ?label .
-        ?geneProduct dcterms:isPartOf ?pathway .
-        ?pathway a wp:Pathway .
-        ?pathway dcterms:identifier "{pathway_id}" . 
+        ?geneProduct dcterms:isPartOf ?pathwayRev .
+        ?pathwayRev a wp:Pathway .
+        ?pathwayRev dc:identifier ?pathway .
+        ?pathwayRev dcterms:identifier "{pathway_id}"
     }}
     """
 
