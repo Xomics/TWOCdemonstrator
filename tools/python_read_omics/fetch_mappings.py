@@ -1,4 +1,6 @@
-''' usage:  python fetch_mappings.py -i https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_IDS.tsv -m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_Su_2020_feature-metadata.csv -c 'Uniprot_ID' -s S -t En -o output_mapped.csv
+''' usage:  python fetch_mappings.py -i https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_IDS.tsv 
+-p https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/pathway_IDs.csv
+-m https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_Su_2020_feature-metadata.csv -s S -o output_mapped.csv
 '''
 
 import requests
@@ -21,11 +23,10 @@ def parse_args():
         User CLI options
     """
     parser = argparse.ArgumentParser(description='Fetch mappings from BridgeDb.')
-    parser.add_argument('-i', '--input_file', required=True, help='URL to the input tsv file containing IDs')
+    parser.add_argument('-p', '--pathwayids_file', required=True, help='URL to the Pathway Identifier file')
+    parser.add_argument('-i', '--id_file', required=True, help='URL to the input tsv file containing omics IDs')
     parser.add_argument('-m', '--meta_file', required=True, help='URL to the feature metadata file')
-    parser.add_argument('-c', '--column_name', required=True, help='Name of the ID column in the metadata file')
     parser.add_argument('-s', '--source', required=True, help='Source database code')
-    parser.add_argument('-t', '--target', required=True, help='Target database code')
     parser.add_argument('-o', '--output_file', required=True, help='Output file to save the mapped DataFrame')
     return parser.parse_args()
 
@@ -61,40 +62,38 @@ def check_mapping_supported(org, source, target, url):
 def main():
     args = parse_args()
     
-    input_file_url = args.input_file
+    pathwayids_file_url= args.pathwayids_file
+    id_file_url = args.id_file
     meta_file_url = args.meta_file
     source = args.source
-    target = args.target
     output_file = args.output_file
-    ID_column = args.column_name
 
     # Download input files
-    input_file = download_file(input_file_url, 'input_file.tsv')
+    pathway_file = download_file(pathwayids_file_url, 'pathwayids_file.csv')
+    input_file = download_file(id_file_url, 'input_file.tsv')
     meta_file = download_file(meta_file_url, 'meta_file.csv')
     
-    # Check if the mapping type required is available
-    print("Checking if mapping is supported...")
-    if check_mapping_supported(org, source, target, url) == 'true':
-        print("Mapping is supported, proceeding with mapping...")
-    else:
-        print("Mapping is not supported between source and target databases.")
+
+    # read in the pathway file
+    path_members = pd.read_csv(pathway_file)
+    path_identifiers = path_members.Identifier.to_list()
     
     # Get mappings for IDs from BridgeDb
-    mappings_df = get_mappings(input_file, "Homo sapiens", source = source, case=1, target=target)
-    print(mappings_df)
+    mappings_df = get_mappings(input_file, "Homo sapiens", source = source, case=1)
 
-    # Filter the mappings for the desired target DB
-    mappings_df = mappings_df[mappings_df['target'] == target]
-    
+    # Get features in the pathway
+    omics_in_path = mappings_df[mappings_df['mapping'].isin(path_identifiers )]
 
     # Read Metadata file
     meta_df = pd.read_csv(meta_file)
 
     # merge the mappings to the metadata dataframe
-    final_proteo_mapped = meta_df.merge(mappings_df, left_on=ID_column, right_on='original', how='left')
+    mapped_omics = meta_df.merge(omics_in_path, left_on='database.ID', right_on='original', how='left')
+    mapped_omics.dropna(inplace = True)
+    mapped_omics = mapped_omics.drop_duplicates(subset='feature.name')
 
     # Save the filtered mappings to a CSV file 
-    final_proteo_mapped.to_csv(args.output_file, index=False)
+    mapped_omics.to_csv(args.output_file, index=False)
     
     print(f"Mapped data saved to {output_file}")
 
