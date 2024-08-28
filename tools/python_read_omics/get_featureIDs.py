@@ -1,5 +1,5 @@
 '''usage: python get_featureIDs.py -i https://raw.githubusercontent.com/Xomics/TWOCdemonstrator/main/data/Su_2020_FAIR/proteomics/proteomics_Su_2020_feature-metadata.csv
--c 'Uniprot_ID' -o test_proteoIDs'
+-c 'Uniprot_ID' -o protein_IDs'
 '''
 
 import pandas as pd
