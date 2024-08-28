@@ -89,7 +89,6 @@ def main():
 
     # Read Metadata file
     meta_df = pd.read_csv(meta_file)
-    print(meta_df)
 
     # merge the mappings to the metadata dataframe
     final_proteo_mapped = meta_df.merge(mappings_df, left_on=ID_column, right_on='original', how='left')

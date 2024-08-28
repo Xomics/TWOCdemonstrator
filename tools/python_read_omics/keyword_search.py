@@ -32,7 +32,7 @@ if __name__ == "__main__":
         sys.exit(1)
     endpoint_url = sys.argv[1]
     keyword = sys.argv[2]
-        # endpoint_url = "https://sparql.wikipathways.org/sparql"
-        # keyword = "SARS-CoV-2"  
+    # endpoint_url = "https://sparql.wikipathways.org/sparql"
+    # keyword = "SARS-CoV-2"  
 
     run_keyword_search(endpoint_url, keyword)
