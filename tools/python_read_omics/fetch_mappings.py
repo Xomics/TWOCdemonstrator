@@ -12,7 +12,7 @@ def download_file(url, local_filename):
                 f.write(chunk)
     return local_filename
 
-def run_script(pathwayids_file_url, id_file_url, meta_file_url, source, output_file):
+def run_script(pathwayids_file_url, id_file_url, meta_file_url, source, column, output_file):
     # Download input files
     pathway_file = download_file(pathwayids_file_url, 'pathwayids_file.csv')
     input_file = download_file(id_file_url, 'input_file.tsv')
@@ -32,7 +32,7 @@ def run_script(pathwayids_file_url, id_file_url, meta_file_url, source, output_f
     meta_df = pd.read_csv(meta_file)
 
     # Merge the mappings to the metadata dataframe
-    mapped_omics = meta_df.merge(omics_in_path, left_on='database.ID', right_on='original', how='left')
+    mapped_omics = meta_df.merge(omics_in_path, left_on=column, right_on='original', how='left')
     mapped_omics.dropna(inplace=True)
     mapped_omics = mapped_omics.drop_duplicates(subset='feature.name')
 
@@ -50,8 +50,9 @@ if __name__ == '__main__':
         parser.add_argument('-i', '--id_file', required=True, help='URL to the input tsv file containing omics IDs')
         parser.add_argument('-m', '--meta_file', required=True, help='URL to the feature metadata file')
         parser.add_argument('-s', '--source', required=True, help='Source database code')
+        parser.add_argument('-c', '--column', required=True, help='Name of column containig Ids')
         parser.add_argument('-o', '--output_file', required=True, help='Output file to save the mapped DataFrame')
         return parser.parse_args()
 
     args = parse_args()
-    run_script(args.pathwayids_file, args.id_file, args.meta_file, args.source, args.output_file)
+    run_script(args.pathwayids_file, args.id_file, args.meta_file, args.source, args.column,  args.output_file)
