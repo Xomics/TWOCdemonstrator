@@ -1,0 +1,6 @@
+# subject:	file:///C:/Users/z370170/Projects/TWOC/TWOCdemonstrator/tools/Su_2020_prepare_ISA_metadata/#publication/f5e83497-4303-48d1-9c76-a57b35447ed3
+# predicate:	https://doi.org/10.1016/j.cell.2020.10.037
+# object:	Multi-Omics Resolves a Sharp Disease-State Shift between Mild and Moderate COVID-19
+
+
+# end of query results, 1 returned ..

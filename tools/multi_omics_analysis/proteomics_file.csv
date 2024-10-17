@@ -1,0 +1,4 @@
+feature.name,Unnamed: 0,database.ID,database,database.version,Uniprot_ID,original,source,mapping,target
+interleukin 10,106,IL10_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P22301,P22301,Uniprot-TrEMBL,P22301,S
+lymphocyte-activation gene 3,141,LAG3_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,P18627,P18627,Uniprot-TrEMBL,3902,L
+TNF receptor-associated factor 2,238,TRAF2_HUMAN,https://www.uniprot.org/uniprotkb/,UniProtKB/Swiss-Prot Release 2022_03,Q12933,Q12933,Uniprot-TrEMBL,ENSG00000127191,En
